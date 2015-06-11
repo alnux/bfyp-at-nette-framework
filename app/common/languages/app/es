@@ -1,0 +1,208 @@
+a:2:{i:0;s:4:"Home";i:1;s:6:"Inicio";}
+a:2:{i:0;s:7:"Sign In";i:1;s:8:"Ingresar";}
+a:2:{i:0;s:7:"Sign Up";i:1;s:11:"Registrarse";}
+a:2:{i:0;s:36:"The form was broken please try again";i:1;s:51:"El formulario caducó, por favor intente nuevamente";}
+a:2:{i:0;s:55:"You are registered, please check your email to validate";i:1;s:75:"Usted se registro con éxito,  le enviamos un correo para validar su cuenta";}
+a:2:{i:0;s:8:"Username";i:1;s:7:"Usuario";}
+a:2:{i:0;s:26:"Username field is required";i:1;s:32:"El campo de usuario es requerido";}
+a:2:{i:0;s:28:"The max length allowed is %d";i:1;s:33:"El número maximo permitido es %d";}
+a:2:{i:0;s:38:"Use only lowercase letters and numbers";i:1;s:38:"Use solo letras minúsculas y números";}
+a:2:{i:0;s:5:"Email";i:1;s:6:"Correo";}
+a:2:{i:0;s:23:"Email field is required";i:1;s:31:"El campo de correo es requerido";}
+a:2:{i:0;s:34:"Please write a valid email address";i:1;s:48:"Por favor ingrese una dirección de email valida";}
+a:2:{i:0;s:8:"Password";i:1;s:11:"Contraseña";}
+a:2:{i:0;s:26:"Password field is required";i:1;s:36:"El campo de contraseña es requerido";}
+a:2:{i:0;s:20:"Passwords must match";i:1;s:32:"Las contraseñas deben coincidir";}
+a:2:{i:0;s:26:"Password match is required";i:1;s:47:"La verificación de la contraseña es requerida";}
+a:2:{i:0;s:15:"Repeat password";i:1;s:19:"Repetir contraseña";}
+a:2:{i:0;s:37:"the next characters are allowed @#%!*";i:1;s:46:"Los siguientes caracteres son requeridos @#%!*";}
+a:2:{i:0;s:28:"the min length allowed is %d";i:1;s:34:"El tamaño minimo permitido es  %d";}
+a:2:{i:0;s:34:"The username %value already exists";i:1;s:27:"El usuario %value ya existe";}
+a:2:{i:0;s:31:"The email %value already exists";i:1;s:26:"El correo %value ya existe";}
+a:2:{i:0;s:46:"Please fill out the following fields to signup";i:1;s:56:"Por favor rellene los siguientes campos para registrarse";}
+a:2:{i:0;s:45:"Please fill out the following fields to login";i:1;s:53:"Por favor rellene los siguientes campos para ingresar";}
+a:2:{i:0;s:11:"Remember Me";i:1;s:8:"Recordar";}
+a:2:{i:0;s:14:"Reset Password";i:1;s:23:"Restablecer contraseña";}
+a:2:{i:0;s:22:"Request password reset";i:1;s:26:"Restablecer mi contraseña";}
+a:2:{i:0;s:71:"Please fill out your email. A link to reset password will be sent there";i:1;s:87:"Por favor indique su email. Un enlace se le será enviado para reajustar su contraseña";}
+a:2:{i:0;s:61:"Sorry but your account has not been created, please try again";i:1;s:73:"Lo siento pero su cuenta no ha sido creada, por favor intente nuevamente.";}
+a:2:{i:0;s:54:"Sorry the validation code is invalid, please try again";i:1;s:83:"Lo siento pero el código de validación es errónea, por favor intente nuevamente ";}
+a:2:{i:0;s:43:"Your account is activate, now you can login";i:1;s:45:"Su cuenta esta activada, ahora puede ingresar";}
+a:2:{i:0;s:20:"I forgot my password";i:1;s:24:"Recuperar mi contraseña";}
+a:2:{i:0;s:55:"Sorry, the email %value does not exists on our registry";i:1;s:56:"Lo siento, el email %value no existe en nuestro registro";}
+a:2:{i:0;s:44:"We send a reset password token to your email";i:1;s:70:"Te enviamos un mensaje con un enlace para que reajustes tu contraseña";}
+a:2:{i:0;s:89:"Sorry the validation code is invalid or is expired, please re sent the code to your email";i:1;s:115:"Lo siento pero el código de restauración es inválido o esta expirado, por favor re envíe el código a su email ";}
+a:2:{i:0;s:44:"Please fill the new password and repeat this";i:1;s:38:"Por favor ingrese la nueva contraseña";}
+a:2:{i:0;s:52:"Your password has been updated, please login with it";i:1;s:62:"Tu contraseña ha sido actualizada, por favor ingresa con ella";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:5:"Salir";}
+a:2:{i:0;s:52:"Please enter your username and/or password correctly";i:1;s:72:"Por favor ingrese su nombre de usuario y/o contraseña de forma correcta";}
+a:2:{i:0;s:6:"System";i:1;s:7:"Sistema";}
+a:2:{i:0;s:10:"My profile";i:1;s:9:"Mi perfil";}
+a:2:{i:0;s:12:"App Settings";i:1;s:22:"Ajustes de aplicación";}
+a:2:{i:0;s:7:"App Key";i:1;s:20:"Clave de aplicación";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:14:"Protección Ip";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:17:"Proxies Aceptados";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:16:"Ips Restringidos";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:5:"Users";i:1;s:8:"Usuarios";}
+a:2:{i:0;s:11:"Permissions";i:1;s:8:"Permisos";}
+a:2:{i:0;s:5:"Roles";i:1;s:5:"Roles";}
+a:2:{i:0;s:9:"Resources";i:1;s:8:"Recursos";}
+a:2:{i:0;s:10:"Privileges";i:1;s:11:"Privilegios";}
+a:2:{i:0;s:8:"My panel";i:1;s:8:"Mi panel";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:94:"Advertencia: Desea hacer cambios en la configuración de la (archivo config.neon ) aplicación";}
+a:2:{i:0;s:21:"Change value (step 1)";i:1;s:22:"Cambiar valor (paso 1)";}
+a:2:{i:0;s:14:"Aplication key";i:1;s:20:"Clave de aplicación";}
+a:2:{i:0;s:22:"Setup app key (step 1)";i:1;s:36:"Ajuste clave de aplicación (paso 1)";}
+a:2:{i:0;s:149:"Please change the 'AppKey' value on config.neon file and press 'Change value (step 2)' button. If everything goes OK you will logout from application";i:1;s:145:"Por favor, cambie el valor ' AppKey ' en el archivo config.neon y pulse el botón 'Cambiar valor (paso 2)'. Si todo va bien su sesion se cerrara ";}
+a:2:{i:0;s:21:"Change value (step 2)";i:1;s:22:"Cambiar valor (paso 2)";}
+a:2:{i:0;s:2:"Ip";i:1;s:2:"Ip";}
+a:2:{i:0;s:6:"Reason";i:1;s:6:"Razón";}
+a:2:{i:0;s:7:"Options";i:1;s:8:"Opciones";}
+a:2:{i:0;s:16:"Accept new proxy";i:1;s:19:"Aceptar nueva proxy";}
+a:2:{i:0;s:11:"Blocked Ips";i:1;s:16:"Ips Restringidas";}
+a:2:{i:0;s:12:"Block new ip";i:1;s:19:"Restringir nueva ip";}
+a:2:{i:0;s:9:"Ip number";i:1;s:13:"Número de ip";}
+a:2:{i:0;s:28:"Please insert a number of ip";i:1;s:34:"Por favor ingrese un número de ip";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:20:"Maximo %d caracteres";}
+a:2:{i:0;s:33:"You can only use numbers and dots";i:1;s:33:"Solo puede usar números y puntos";}
+a:2:{i:0;s:20:"Enter a number of ip";i:1;s:24:"Ingrese un número de ip";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:23:"Solo se permiten letras";}
+a:2:{i:0;s:16:"Enter the reason";i:1;s:17:"Ingrese la razón";}
+a:2:{i:0;s:8:"Block ip";i:1;s:11:"Bloquear ip";}
+a:2:{i:0;s:23:"The ip has been blocked";i:1;s:23:"La ip ha sido bloqueada";}
+a:2:{i:0;s:4:"Edit";i:1;s:6:"Editar";}
+a:2:{i:0;s:58:"Really want to remove the restriction to this number of ip";i:1;s:51:"Desea eliminar la restricción a este número de ip";}
+a:2:{i:0;s:6:"Delete";i:1;s:8:"Eliminar";}
+a:2:{i:0;s:15:"Edit ip blocked";i:1;s:19:"Editar ip bloqueada";}
+a:2:{i:0;s:15:"Edit Blocked ip";i:1;s:19:"Editar ip bloqueada";}
+a:2:{i:0;s:38:"Could not find the required blocked ip";i:1;s:44:"No se pudo encontrar la ip bloqueada deseada";}
+a:2:{i:0;s:30:"The blocked ip has been update";i:1;s:35:"La ip bloqueada ha sido actualizada";}
+a:2:{i:0;s:36:"Blocking the ip successfully removed";i:1;s:32:"La ip bloqueada a sido eliminada";}
+a:2:{i:0;s:9:"New proxy";i:1;s:11:"Nuevo proxy";}
+a:2:{i:0;s:9:"Add proxy";i:1;s:13:"Agregar proxy";}
+a:2:{i:0;s:30:"The new proxy has been created";i:1;s:25:"El proxy ha sido agregado";}
+a:2:{i:0;s:49:"Really want to restrict access to this proxy (ip)";i:1;s:44:"Desea restringir el acceso a este proxy (ip)";}
+a:2:{i:0;s:10:"Edit proxy";i:1;s:12:"Editar proxy";}
+a:2:{i:0;s:26:"The proxy has been updated";i:1;s:28:"El proxy ha sido actualizado";}
+a:2:{i:0;s:35:"Proxy has been successfully removed";i:1;s:45:"El proxy ha sido eliminado satisfactoriamente";}
+a:2:{i:0;s:9:"Edit role";i:1;s:10:"Editar rol";}
+a:2:{i:0;s:37:"Please edit the user role and save it";i:1;s:44:"Por favor edite el rol de usuario y guardelo";}
+a:2:{i:0;s:20:"Please select a role";i:1;s:27:"Por favor seleccione un rol";}
+a:2:{i:0;s:11:"Update role";i:1;s:14:"Actualizar rol";}
+a:2:{i:0;s:32:"User roles successfully upgraded";i:1;s:51:"Los roles del usuario se actualizaron correctamente";}
+a:2:{i:0;s:21:"Create new permission";i:1;s:19:"Crear nuevo permiso";}
+a:2:{i:0;s:14:"All privileges";i:1;s:21:"Todos los privilegios";}
+a:2:{i:0;s:4:"Edit";i:1;s:6:"Editar";}
+a:2:{i:0;s:6:"Delete";i:1;s:8:"Eliminar";}
+a:2:{i:0;s:22:"Delete this permission";i:1;s:21:"Eliminar este permiso";}
+a:2:{i:0;s:13:"Access denied";i:1;s:15:"Acceso denegado";}
+a:2:{i:0;s:14:"Access granted";i:1;s:15:"Acceso otorgado";}
+a:2:{i:0;s:14:"New Permission";i:1;s:13:"Nuevo permiso";}
+a:2:{i:0;s:17:"- All resources -";i:1;s:22:"- Todos los recursos -";}
+a:2:{i:0;s:24:"Please select a resource";i:1;s:31:"Por favor seleccione un recurso";}
+a:2:{i:0;s:4:"View";i:1;s:3:"Ver";}
+a:2:{i:0;s:6:"Create";i:1;s:5:"Crear";}
+a:2:{i:0;s:16:"Basic Privileges";i:1;s:19:"Privilegios basicos";}
+a:2:{i:0;s:17:"Create permission";i:1;s:13:"Crear permiso";}
+a:2:{i:0;s:6:"Access";i:1;s:6:"Acceso";}
+a:2:{i:0;s:18:"- All privileges -";i:1;s:25:"- Todos los privilegios -";}
+a:2:{i:0;s:25:"Please select a privilege";i:1;s:34:"Por favor seleccione un privilegio";}
+a:2:{i:0;s:30:"Please select a type of access";i:1;s:38:"Por favor seleccione un tipo de acceso";}
+a:2:{i:0;s:35:"The range should be between 0 and 1";i:1;s:29:"El rango debe ser entre 0 y 1";}
+a:2:{i:0;s:37:"Create the new permission and save it";i:1;s:32:"Cree el nuevo permiso y guardelo";}
+a:2:{i:0;s:15:"Edit permission";i:1;s:14:"Editar permiso";}
+a:2:{i:0;s:47:"Please edit the permission settings and save it";i:1;s:37:"Por favor edite el permiso y guardelo";}
+a:2:{i:0;s:40:"Permission has been successfully removed";i:1;s:47:"El permiso ha sido eliminado satisfactoriamente";}
+a:2:{i:0;s:22:"Permission was updated";i:1;s:23:"El permiso se actualizo";}
+a:2:{i:0;s:15:"Create new role";i:1;s:15:"Crear nuevo rol";}
+a:2:{i:0;s:8:"New Role";i:1;s:9:"Nuevo Rol";}
+a:2:{i:0;s:31:"Create the new role and save it";i:1;s:28:"Cree el nuevo rol y guardelo";}
+a:2:{i:0;s:3:"Key";i:1;s:5:"Llave";}
+a:2:{i:0;s:25:"The key field is required";i:1;s:30:"El campo de llave es requerido";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:20:"Maximo %d caracteres";}
+a:2:{i:0;s:54:"Only lowercase letters, characters - and _ are allowed";i:1;s:64:"Solo esta permitido minúsculas y los siguientes caracteres - _ ";}
+a:2:{i:0;s:48:"Insert the key with which the role is identified";i:1;s:53:"Ingrese la llave con la que el rol será identificado";}
+a:2:{i:0;s:26:"The name field is required";i:1;s:32:"El campo del nombre es requerido";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:26:"Solo esta permitido letras";}
+a:2:{i:0;s:28:"Insert the name for the role";i:1;s:25:"Ingrese el nombre del rol";}
+a:2:{i:0;s:10:"Parent rol";i:1;s:9:"Rol padre";}
+a:2:{i:0;s:9:"No parent";i:1;s:13:"Sin rol padre";}
+a:2:{i:0;s:34:"Select a parent role from the list";i:1;s:35:"Seleccione un rol padre de la lista";}
+a:2:{i:0;s:7:"Comment";i:1;s:10:"Comentario";}
+a:2:{i:0;s:29:"Insert a comment for the role";i:1;s:33:"Ingrese un comentario para el rol";}
+a:2:{i:0;s:10:"Create rol";i:1;s:9:"Crear rol";}
+a:2:{i:0;s:33:"The role was created successfully";i:1;s:33:"El rol se creo satisfactoriamente";}
+a:2:{i:0;s:31:"Really want to delete this item";i:1;s:34:"Realmente desea eliminar este item";}
+a:2:{i:0;s:41:"Please edit the role settings and save it";i:1;s:46:"Por favor edite los ajustes del rol y guardelo";}
+a:2:{i:0;s:8:"Edit rol";i:1;s:10:"Editar rol";}
+a:2:{i:0;s:20:"The role was updated";i:1;s:19:"El rol se actualizo";}
+a:2:{i:0;s:38:"The role has been successfully removed";i:1;s:41:"El rol se ha eliminado satisfactoriamente";}
+a:2:{i:0;s:19:"Create new resource";i:1;s:19:"Crear nuevo recurso";}
+a:2:{i:0;s:12:"New resource";i:1;s:13:"Nuevo recurso";}
+a:2:{i:0;s:35:"Create the new resource and save it";i:1;s:32:"Cree el nuevo recurso y guardelo";}
+a:2:{i:0;s:52:"Insert the key with which the resource is identified";i:1;s:63:"Ingrese la palabra clave con la que el recurso se identificará";}
+a:2:{i:0;s:32:"Insert the name for the resource";i:1;s:29:"Ingrese el nombre del recurso";}
+a:2:{i:0;s:15:"Parent resource";i:1;s:13:"Recurso padre";}
+a:2:{i:0;s:34:"Select a parent from resource list";i:1;s:43:"Seleccione un padre de la lista de recursos";}
+a:2:{i:0;s:33:"Insert a comment for the resource";i:1;s:37:"Ingrese un comentario para el recurso";}
+a:2:{i:0;s:15:"Create resource";i:1;s:13:"Crear recurso";}
+a:2:{i:0;s:37:"The resource was created successfully";i:1;s:44:"El recurso ha sido creado satisfactoriamente";}
+a:2:{i:0;s:13:"Edit resource";i:1;s:14:"Editar recurso";}
+a:2:{i:0;s:45:"Please edit the resource settings and save it";i:1;s:50:"Por favor edite los ajustes del recurso y guardelo";}
+a:2:{i:0;s:37:"The resource was updated successfully";i:1;s:42:"El recurso se actualizo satisfactoriamente";}
+a:2:{i:0;s:42:"The resource has been successfully removed";i:1;s:46:"El recurso ha sido eliminado satisfactoramente";}
+a:2:{i:0;s:20:"Create new privilege";i:1;s:22:"Crear nuevo privilegio";}
+a:2:{i:0;s:13:"New Privilege";i:1;s:16:"Nuevo Privilegio";}
+a:2:{i:0;s:36:"Create the new privilege and save it";i:1;s:35:"Cree el nuevo privilegio y guardelo";}
+a:2:{i:0;s:19:"The key is required";i:1;s:3:"la ";}
+a:2:{i:0;s:16:"Create privilege";i:1;s:16:"Crear privilegio";}
+a:2:{i:0;s:33:"Enter a comment for the privilege";i:1;s:40:"Ingrese un comentario para el privilegio";}
+a:2:{i:0;s:23:"Select parent privilege";i:1;s:30:"Seleccione el privilegio padre";}
+a:2:{i:0;s:16:"Parent privilege";i:1;s:16:"Privilegio padre";}
+a:2:{i:0;s:26:"Insert a name to privilege";i:1;s:32:"Ingrese el nombre del privilegio";}
+a:2:{i:0;s:20:"The name is required";i:1;s:22:"El nombre es requerido";}
+a:2:{i:0;s:38:"Insert a key to identify the privilege";i:1;s:62:"Ingrese la palabra clave con la que identificara al privilegio";}
+a:2:{i:0;s:38:"The privilege was created successfully";i:1;s:47:"El privilegio ha sido creado satisfactoriamente";}
+a:2:{i:0;s:14:"Edit privilege";i:1;s:17:"Editar privilegio";}
+a:2:{i:0;s:46:"Please edit the privilege settings and save it";i:1;s:53:"por favor edite los ajustes del privilegio y guardelo";}
+a:2:{i:0;s:38:"The privilege was updated successfully";i:1;s:52:"El privilegio ha sido actualizado satisfactoriamente";}
+a:2:{i:0;s:43:"The privilege has been successfully removed";i:1;s:50:"El privilegio ha sido eliminado satisfactoriamente";}
+a:2:{i:0;s:32:"Could not find the user required";i:1;s:41:"No se pudo encontrar el usuario requerido";}
+a:2:{i:0;s:35:"Permission was created successfully";i:1;s:37:"El permiso se creo satisfactoriamente";}
+a:2:{i:0;s:13:"All resources";i:1;s:18:"Todos los recursos";}
+a:2:{i:0;s:38:"Could not find the required permission";i:1;s:41:"No se pudo encontrar el permiso requerido";}
+a:2:{i:0;s:32:"Could not find the role required";i:1;s:37:"No se pudo encontrar el rol requerido";}
+a:2:{i:0;s:20:"Only letters allowed";i:1;s:23:"Solo se permiten letras";}
+a:2:{i:0;s:36:"Could not find the resource required";i:1;s:41:"No se pudo encontrar el recurso requerido";}
+a:2:{i:0;s:37:"Could not find the required privilege";i:1;s:44:"No se pudo encontrar el privilegio requerido";}
+a:2:{i:0;s:64:"The privilege can not be eliminated due to be present in permits";i:1;s:76:"El privilegio no puede ser eliminado debido a estar presente en los permisos";}
+a:2:{i:0;s:5:"email";i:1;s:5:"email";}
+a:2:{i:0;s:4:"Role";i:1;s:3:"Rol";}
+a:2:{i:0;s:8:"Resource";i:1;s:7:"Recurso";}
+a:2:{i:0;s:9:"Privilege";i:1;s:10:"Privilegio";}
+a:2:{i:0;s:4:"Name";i:1;s:6:"Nombre";}
+a:2:{i:0;s:7:"Role(s)";i:1;s:7:"Rol(es)";}
+a:2:{i:0;s:15:"Change password";i:1;s:19:"Cambiar contraseña";}
+a:2:{i:0;s:15:"Actual password";i:1;s:18:"Actual contraseña";}
+a:2:{i:0;s:31:"The actual password is required";i:1;s:33:"Se requiere la contraseña actual";}
+a:2:{i:0;s:36:"The max length of the password is %d";i:1;s:42:"El tamaño máximo de la contraseña es %d";}
+a:2:{i:0;s:36:"The min length of the password is %d";i:1;s:42:"El tamaño mínimo de la contraseña es %d";}
+a:2:{i:0;s:53:"You can use letters, numbers, and !@#$%^&* characters";i:1;s:53:"Puede usar letras, números y los caracteres !@#$%^&*";}
+a:2:{i:0;s:33:"Please insert the actual password";i:1;s:39:"Por favor ingrese la contraseña actual";}
+a:2:{i:0;s:12:"New password";i:1;s:17:"Nueva contraseña";}
+a:2:{i:0;s:28:"The new password is required";i:1;s:33:"La nueva contraseña es requerida";}
+a:2:{i:0;s:78:"Please insert the new password using: letters, numbers and !@#$%^&* characters";i:1;s:43:"Puede usar letras y los caracteres !@#$%^&*";}
+a:2:{i:0;s:19:"Repeat new password";i:1;s:21:"Repita la contraseña";}
+a:2:{i:0;s:26:"Please retype the password";i:1;s:34:"Por favor reingrese la contraseña";}
+a:2:{i:0;s:20:"Passwords must match";i:1;s:32:"Las contraseñas deben coincidir";}
+a:2:{i:0;s:31:"Repeat the new password entered";i:1;s:37:"Repita la nueva contraseña ingresada";}
+a:2:{i:0;s:30:"Your password has been updated";i:1;s:33:"Su contraseña a sido actualizada";}
+a:2:{i:0;s:5:"Email";i:1;s:5:"Email";}
+a:2:{i:0;s:8:"Language";i:1;s:6:"Idioma";}
+a:2:{i:0;s:63:"Only lowercase letters, numbers, characters - and _ are allowed";i:1;s:71:"Solo letras minúsculas, números y los caracteres -_ están permitidos";}
+a:2:{i:0;s:36:"Only letters and numbers are allowed";i:1;s:40:"Solo letras y números están permitidos";}
+a:2:{i:0;s:51:"You have to validate your account before to sign in";i:1;s:52:"Tiene que validar su cuenta antes de iniciar sesión";}
+a:2:{i:0;s:14:"You are banned";i:1;s:24:"Usted ha sido suspendido";}
+a:2:{i:0;s:75:"Sorry but you can not be validated in the system. Please contact management";i:1;s:92:"Lo siento pero no puede validarse en el sistema. por favor contactese con la administración";}
+a:2:{i:0;s:12:"No resources";i:1;s:12:"Sin recursos";}

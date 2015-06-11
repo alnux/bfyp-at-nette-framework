@@ -1,0 +1,38 @@
+{**
+ * @author Leonardo Allende <alnux@ya.ru> 2015
+ *
+ * @param string   $basePath web base path
+ * @param array    $flashes  flash messages
+ *}
+{block content}
+    {include '../@bodyheader.latte'}
+    
+    <div class="row">
+        <div class="col-lg-5">
+			<table class="table">
+					<tr>
+					<th style="width:10%">{_ 'Username'}</th>
+						<td>{$userdata['username']}</td>
+					</tr>
+
+					<tr>
+					<th style="width:10%">{_ 'Email'}</th>
+						<td>{$userdata['email']}</td>
+					</tr>
+
+					<tr>
+						<th>{_ 'Password'}</th>
+						<td>**********</td>
+					</tr>
+					<tr>
+					<th>{_ 'Role(s)'}</th>
+						<td>{$userdata['roles']}</td>
+					</tr>
+					<th>{_ 'Language'}</th>
+						<td>{$userdata['language']}</td>
+					</tr>
+			</table>
+			<a n:href="changepass" class="btn btn-primary btn-xs">{_ 'Change password'}</a>
+        </div>
+    </div>
+{/block}

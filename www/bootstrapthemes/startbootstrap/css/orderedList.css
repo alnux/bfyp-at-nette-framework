@@ -1,0 +1,11 @@
+/*** Order list ***/
+.orderlist ol { 
+	counter-reset: item;
+}
+.orderlist li { 
+	display: block;
+}
+.orderlist li:before { 
+	counter-increment: item;
+	content: counters(item, ".") "."; 
+}

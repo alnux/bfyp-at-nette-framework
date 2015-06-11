@@ -1,0 +1,18 @@
+a:2:{i:0;s:7:"Role(s)";i:1;s:7:"Rol(es)";}
+a:2:{i:0;s:15:"Change password";i:1;s:19:"Cambiar contraseña";}
+a:2:{i:0;s:15:"Actual password";i:1;s:18:"Actual contraseña";}
+a:2:{i:0;s:31:"The actual password is required";i:1;s:33:"Se requiere la contraseña actual";}
+a:2:{i:0;s:36:"The max length of the password is %d";i:1;s:42:"El tamaño máximo de la contraseña es %d";}
+a:2:{i:0;s:36:"The min length of the password is %d";i:1;s:42:"El tamaño mínimo de la contraseña es %d";}
+a:2:{i:0;s:53:"You can use letters, numbers, and !@#$%^&* characters";i:1;s:53:"Puede usar letras, números y los caracteres !@#$%^&*";}
+a:2:{i:0;s:33:"Please insert the actual password";i:1;s:39:"Por favor ingrese la contraseña actual";}
+a:2:{i:0;s:12:"New password";i:1;s:17:"Nueva contraseña";}
+a:2:{i:0;s:28:"The new password is required";i:1;s:33:"La nueva contraseña es requerida";}
+a:2:{i:0;s:78:"Please insert the new password using: letters, numbers and !@#$%^&* characters";i:1;s:43:"Puede usar letras y los caracteres !@#$%^&*";}
+a:2:{i:0;s:19:"Repeat new password";i:1;s:21:"Repita la contraseña";}
+a:2:{i:0;s:26:"Please retype the password";i:1;s:34:"Por favor reingrese la contraseña";}
+a:2:{i:0;s:20:"Passwords must match";i:1;s:32:"Las contraseñas deben coincidir";}
+a:2:{i:0;s:31:"Repeat the new password entered";i:1;s:37:"Repita la nueva contraseña ingresada";}
+a:2:{i:0;s:30:"Your password has been updated";i:1;s:33:"Su contraseña a sido actualizada";}
+a:2:{i:0;s:5:"Email";i:1;s:5:"Email";}
+a:2:{i:0;s:8:"Language";i:1;s:6:"Idioma";}

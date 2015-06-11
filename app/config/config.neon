@@ -1,0 +1,154 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+parameters:
+	database:
+		#----------------------------------------------------------------------------------
+		# To use MyIsam tables please uncomment conventions and driverClass 
+		# from nette.database.default section
+		#----------------------------------------------------------------------------------
+		driver: mysql
+		host: localhost
+		username: root
+		password: root
+		dbname: nette
+	mailer:
+		smtp: true  # true SmtpMailer, false SendmailMailer
+		host: smtp.gmail.com
+		username: pruevap55@gmail.com
+		password: qaz741qaz
+		secure: ssl # php ssl extension have to be enable
+
+	settings:
+		# This is the cache namespace (folder) where the cache files will be save
+		cachenamespace: appdata
+
+		# This is used for app verification, actual on: tables users_roles, permission. It
+		# does not influence on users pass
+		appkey: 'Change this key with your own example: qaQadaWeR12'
+		appkeybackUp: 'Change this key with your own example: qaQadaWeR12'
+
+		# This word is used for: superuser username, principal permission and principal role, 
+		# set this at begining
+		superuser: 'superadministrator'
+
+		# Principal site name
+		site_title: 'Nette Start Up proyect'
+
+		# route to class when the users do not have resources assigned
+		no_resources: :Front:Users:NoResources:default
+
+		# Default rol for sign up users (please write the key_name that you want, this from role table)
+		default_role: authenticated
+
+		mailer:
+			# Base folder for email language templates. Next folders, the emailer class complete the path
+			# to the required language folder by example '%appDir%/common/languages/messages/<language>/welcome.latte
+			email_templates_path: '%appDir%/common/languages/messages'
+			email_mailer: pruevap55@gmail.com
+
+		# Country params and language iso code
+		location:
+			country_default:
+				iso: BO
+				name: Bolivia
+			# Default language have to be on enabled_languages or you will have a Translator Exception
+			language_default: en
+			
+			# All languages on the array have to be on language database table
+			enabled_languages: [en, es, cs]
+
+			# Countries front templates for (iso country code)
+			countries_front_templates: [BO, CZ, US]
+
+		#------------------------------------------------------------------------------------
+        # Tables with verification column that works with appkey neon parameter, each one 
+        # have to have model class (it have to be on App\Common\Classes\ModelsContainer).
+        # If you have verificate column in another tables that works with
+        # 'appkey' parameter, please add into 'tables' neon array var the columns that you want to 
+        # verificate, the last value have to be the verification column
+        # 
+        # NOTE
+        # the order that you have to build your verification result
+        # is as follows:
+        # 
+        # sha1(column1, column2, column_n-1,'appkey from config.neon',column_n);
+        # 
+        # Example:
+        # 
+        # sha1($values['role_id'].$values['privilege_id'].$values['resource_id'].$container
+        # ->getParameters()['settings']['appkey'].$values['access']);
+        #
+        # NOTE 2
+    	# You must type the name of the method that calls the table except the prefix get. This on 
+    	# App\Common\Classes\ModelsContainer 
+        #------------------------------------------------------------------------------------
+		tables:
+			UserRole: [user_id, role_id, verification]
+			Permission: [role_id, privilege_id, resource_id, access, verification]
+
+
+php:
+	date.timezone: America/La_Paz
+
+
+nette:
+	container:
+		accessors: TRUE
+
+	application:
+		errorPresenter: Error
+		mapping:
+			*: App\*\Presenters\*Presenter
+
+	session:
+		expiration: 3 days
+
+	mailer:
+		smtp: %mailer.smtp%
+		host: %mailer.host%
+		username: %mailer.username%
+		password: %mailer.password%
+		secure: %mailer.secure%
+		#port: ...
+		#timeout: ...
+
+	database:
+		default:
+			dsn: "%database.driver%:host=%database.host%;dbname=%database.dbname%"
+			user: %database.username%
+			password: %database.password%
+			conventions: discovered
+			options: 
+				charset: utf8
+				lazy: yes
+				driverClass: \App\Common\Classes\MySqlMyIsamDriver
+
+services:
+
+	#EmailSender
+	- App\Common\Classes\EmailSender
+
+	# Settings Caller
+	appsettings: App\Common\Classes\SettingsCaller(%settings%)
+
+	# Router
+	router: App\RouterFactory::createRouter
+
+	# Containers
+	models: App\Common\Classes\ModelsContainer
+	forms: App\Common\Classes\FormsContainer
+
+	# LiveTranslator configurator
+	translatorStorage: LiveTranslator\Storage\File(%appDir%/common/languages/app)
+	translator:
+		# English will be allways language for the translator class. This becouse source files are on english 
+		class: LiveTranslator\Translator(en)
+		setup:
+			- setAvailableLanguages(%settings.location.enabled_languages%)
+
+	# Extensions without compatibility with nette, them like services
+	- GeoIp2\Database\Reader('%appDir%/common/geoip/GeoLite2-Country.mmdb')

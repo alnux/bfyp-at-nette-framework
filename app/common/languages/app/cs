@@ -1,0 +1,205 @@
+a:2:{i:0;s:4:"Home";i:1;s:5:"Domů";}
+a:2:{i:0;s:7:"Sign In";i:1;s:8:"Podepiš";}
+a:2:{i:0;s:7:"Sign Up";i:1;s:14:"Přihlásit se";}
+a:2:{i:0;s:36:"The form was broken please try again";i:1;s:47:"Formulář byl rozbit , prosím zkuste to znovu";}
+a:2:{i:0;s:55:"You are registered, please check your email to validate";i:1;s:72:"Ty jsou registrovány , prosím zkontrolujte Váš e-mail pro ověření";}
+a:2:{i:0;s:8:"Username";i:1;s:20:"Uživatelské jméno";}
+a:2:{i:0;s:26:"Username field is required";i:1;s:41:"Je vyžadováno uživatelské jméno pole";}
+a:2:{i:0;s:28:"The max length allowed is %d";i:1;s:33:"Maximální délka je dovoleno %d";}
+a:2:{i:0;s:38:"Use only lowercase letters and numbers";i:1;s:45:"Používejte pouze malá písmena a číslice";}
+a:2:{i:0;s:5:"Email";i:1;s:6:"Correo";}
+a:2:{i:0;s:23:"Email field is required";i:1;s:22:"Email je povinný pole";}
+a:2:{i:0;s:34:"Please write a valid email address";i:1;s:42:"Napište prosím platnou e-mailovou adresu";}
+a:2:{i:0;s:8:"Password";i:1;s:5:"Heslo";}
+a:2:{i:0;s:26:"Password field is required";i:1;s:22:"Je povinné pole heslo";}
+a:2:{i:0;s:20:"Passwords must match";i:1;s:24:"Hesla se musí schodovat";}
+a:2:{i:0;s:26:"Password match is required";i:1;s:28:"Je vyžadováno heslo zápas";}
+a:2:{i:0;s:15:"Repeat password";i:1;s:15:"zopakujte heslo";}
+a:2:{i:0;s:37:"the next characters are allowed @#%!*";i:1;s:33:"Další znaky jsou povoleny @#%!*";}
+a:2:{i:0;s:28:"the min length allowed is %d";i:1;s:25:"délka min povoleno je %d";}
+a:2:{i:0;s:34:"The username %value already exists";i:1;s:29:"Username %value již existuje";}
+a:2:{i:0;s:31:"The email %value already exists";i:1;s:26:"Email %value již existuje";}
+a:2:{i:0;s:46:"Please fill out the following fields to signup";i:1;s:56:"Prosím, vyplňte následující pole pro přihlášení";}
+a:2:{i:0;s:45:"Please fill out the following fields to login";i:1;s:56:"Prosím, vyplňte následující pole pro přihlášení";}
+a:2:{i:0;s:11:"Remember Me";i:1;s:16:"Zapamatuj Si Mě";}
+a:2:{i:0;s:14:"Reset Password";i:1;s:13:"Obnovit Heslo";}
+a:2:{i:0;s:22:"Request password reset";i:1;s:29:"Žádost o resetování hesla";}
+a:2:{i:0;s:71:"Please fill out your email. A link to reset password will be sent there";i:1;s:77:"Prosím, vyplňte svůj e-mail . Odkaz k resetování hesla bude tam zaslány";}
+a:2:{i:0;s:61:"Sorry but your account has not been created, please try again";i:1;s:74:"Omlouváme se , ale váš účet nebyl vytvořen , zkuste to prosím znovu";}
+a:2:{i:0;s:54:"Sorry the validation code is invalid, please try again";i:1;s:65:"Omlouváme sevalidace kód je neplatný , zkuste to prosím znovu";}
+a:2:{i:0;s:43:"Your account is activate, now you can login";i:1;s:57:"Váš účet je aktivovat , nyní se můžete přihlásit";}
+a:2:{i:0;s:20:"I forgot my password";i:1;s:20:"Zapomněl jsem heslo";}
+a:2:{i:0;s:55:"Sorry, the email %value does not exists on our registry";i:1;s:58:"Omlouváme se ,e-mail %value neexistuje na našem registru";}
+a:2:{i:0;s:44:"We send a reset password token to your email";i:1;s:53:"Máme poslat resetování hesla žeton na Váš email";}
+a:2:{i:0;s:89:"Sorry the validation code is invalid or is expired, please re sent the code to your email";i:1;s:102:"Omlouváme sevalidace kód je neplatný nebo je vypršela , znovu prosím zašlete kód na Váš email";}
+a:2:{i:0;s:44:"Please fill the new password and repeat this";i:1;s:44:"Prosím, vyplňte nové heslo a zopakovat to";}
+a:2:{i:0;s:52:"Your password has been updated, please login with it";i:1;s:63:"Vaše heslo bylo aktualizováno , prosím přihlašte se s ním";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:12:"Odhlásit Se";}
+a:2:{i:0;s:52:"Please enter your username and/or password correctly";i:1;s:67:"Prosím, zadejte své uživatelské jméno a / nebo heslo správně";}
+a:2:{i:0;s:6:"System";i:1;s:7:"Systém";}
+a:2:{i:0;s:10:"My profile";i:1;s:11:"Můj profil";}
+a:2:{i:0;s:12:"App Settings";i:1;s:14:"App Nastavení";}
+a:2:{i:0;s:7:"App Key";i:1;s:7:"App Key";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:9:"krytí IP";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:14:"Proxy Accepted";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:14:"Ips Restricted";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:5:"Users";i:1;s:11:"Uživatelé";}
+a:2:{i:0;s:11:"Permissions";i:1;s:12:"Oprávnění";}
+a:2:{i:0;s:5:"Roles";i:1;s:4:"Role";}
+a:2:{i:0;s:9:"Resources";i:1;s:6:"Zdroje";}
+a:2:{i:0;s:10:"Privileges";i:1;s:7:"Výsady";}
+a:2:{i:0;s:8:"My panel";i:1;s:10:"Můj panel";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:82:"Upozornění : Chcete , aby se změny v konfiguraci (soubor config.neon) žádosti";}
+a:2:{i:0;s:21:"Change value (step 1)";i:1;s:23:"Změna hodnoty (krok 1)";}
+a:2:{i:0;s:14:"Aplication key";i:1;s:12:"Aplikace key";}
+a:2:{i:0;s:22:"Setup app key (step 1)";i:1;s:27:"Aplikace Setup key (krok 1)";}
+a:2:{i:0;s:149:"Please change the 'AppKey' value on config.neon file and press 'Change value (step 2)' button. If everything goes OK you will logout from application";i:1;s:188:"Prosím, změňte hodnotu " AppKey " na config.neon souboru a stiskněte tlačítko ' Změna hodnoty ( krok 2) " tlačítko . Pokud vše půjde v pořádku , budete odhlášení z aplikace";}
+a:2:{i:0;s:21:"Change value (step 2)";i:1;s:23:"Změna hodnoty (krok 2)";}
+a:2:{i:0;s:2:"Ip";i:1;s:2:"Ip";}
+a:2:{i:0;s:6:"Reason";i:1;s:6:"Důvod";}
+a:2:{i:0;s:7:"Options";i:1;s:9:"Možnosti";}
+a:2:{i:0;s:16:"Accept new proxy";i:1;s:21:"Přijmout nový proxy";}
+a:2:{i:0;s:11:"Blocked Ips";i:1;s:19:"Bokované ip adresy";}
+a:2:{i:0;s:12:"Block new ip";i:1;s:14:"Block nový ip";}
+a:2:{i:0;s:9:"Ip number";i:1;s:10:"číslo ip";}
+a:2:{i:0;s:28:"Please insert a number of ip";i:1;s:26:"Prosím vložte číslo ip";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:13:"Max %d znaků";}
+a:2:{i:0;s:33:"You can only use numbers and dots";i:1;s:40:"Můžete použít pouze čísla a tečky";}
+a:2:{i:0;s:20:"Enter a number of ip";i:1;s:18:"Zadejte číslo ip";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:28:"Pouze písmena jsou povoleny";}
+a:2:{i:0;s:16:"Enter the reason";i:1;s:14:"Zadejte důvod";}
+a:2:{i:0;s:8:"Block ip";i:1;s:8:"Block ip";}
+a:2:{i:0;s:23:"The ip has been blocked";i:1;s:18:"Ip byl zablokován";}
+a:2:{i:0;s:4:"Edit";i:1;s:4:"Edit";}
+a:2:{i:0;s:58:"Really want to remove the restriction to this number of ip";i:1;s:50:"Opravdu chcete odstranit omezení tohoto počtu ip";}
+a:2:{i:0;s:6:"Delete";i:1;s:7:"Vymazat";}
+a:2:{i:0;s:15:"Edit ip blocked";i:1;s:21:"Upravit ip blokovány";}
+a:2:{i:0;s:15:"Edit Blocked ip";i:1;s:24:"Eupravit blokovaných ip";}
+a:2:{i:0;s:38:"Could not find the required blocked ip";i:1;s:41:"Nelze najít požadovaný blokovaných ip";}
+a:2:{i:0;s:30:"The blocked ip has been update";i:1;s:30:"Zablokoval ip byla aktualizace";}
+a:2:{i:0;s:36:"Blocking the ip successfully removed";i:1;s:37:"Blokování ip úspěšně odstraněn";}
+a:2:{i:0;s:9:"New proxy";i:1;s:9:"New proxy";}
+a:2:{i:0;s:9:"Add proxy";i:1;s:13:"Přidat proxy";}
+a:2:{i:0;s:30:"The new proxy has been created";i:1;s:25:"El proxy ha sido agregado";}
+a:2:{i:0;s:49:"Really want to restrict access to this proxy (ip)";i:1;s:61:"Opravdu chcete omezit přístup k tomuto serveru proxy ( ip )";}
+a:2:{i:0;s:10:"Edit proxy";i:1;s:13:"Upravit Proxy";}
+a:2:{i:0;s:26:"The proxy has been updated";i:1;s:23:"Proxy byl aktualizován";}
+a:2:{i:0;s:35:"Proxy has been successfully removed";i:1;s:34:"Proxy byla úspěšně odstraněna";}
+a:2:{i:0;s:9:"Edit role";i:1;s:9:"Edit role";}
+a:2:{i:0;s:37:"Please edit the user role and save it";i:1;s:44:"Upravte prosím roli uživatele a uložit ji";}
+a:2:{i:0;s:20:"Please select a role";i:1;s:21:"Prosím, vyberte roli";}
+a:2:{i:0;s:11:"Update role";i:1;s:16:"Aktualizace role";}
+a:2:{i:0;s:32:"User roles successfully upgraded";i:1;s:44:"Uživatelské role úspěšně aktualizován";}
+a:2:{i:0;s:21:"Create new permission";i:1;s:25:"Vytvořit nové povolení";}
+a:2:{i:0;s:14:"All privileges";i:1;s:21:"Všechna oprávnění";}
+a:2:{i:0;s:4:"Edit";i:1;s:6:"Editar";}
+a:2:{i:0;s:6:"Delete";i:1;s:8:"Eliminar";}
+a:2:{i:0;s:22:"Delete this permission";i:1;s:27:"Odstranit toto oprávnění";}
+a:2:{i:0;s:13:"Access denied";i:1;s:22:"Přístup byl odepřen";}
+a:2:{i:0;s:14:"Access granted";i:1;s:9:"Přístup";}
+a:2:{i:0;s:14:"New Permission";i:1;s:15:"Nové Povolení";}
+a:2:{i:0;s:17:"- All resources -";i:1;s:19:"- Všechny zdroje -";}
+a:2:{i:0;s:24:"Please select a resource";i:1;s:21:"Vyberte prosím zdroj";}
+a:2:{i:0;s:4:"View";i:1;s:6:"Pohled";}
+a:2:{i:0;s:6:"Create";i:1;s:9:"Vytvořit";}
+a:2:{i:0;s:16:"Basic Privileges";i:1;s:23:"Základní Oprávnění";}
+a:2:{i:0;s:17:"Create permission";i:1;s:22:"Vytvořit oprávnění";}
+a:2:{i:0;s:6:"Access";i:1;s:9:"Přístup";}
+a:2:{i:0;s:18:"- All privileges -";i:1;s:25:"- Všechna oprávnění -";}
+a:2:{i:0;s:25:"Please select a privilege";i:1;s:29:"Prosím, vyberte oprávnění";}
+a:2:{i:0;s:30:"Please select a type of access";i:1;s:31:"Prosím, vyberte typ přístupu";}
+a:2:{i:0;s:35:"The range should be between 0 and 1";i:1;s:30:"Rozsah by měl být mezi 0 a 1";}
+a:2:{i:0;s:37:"Create the new permission and save it";i:1;s:39:"Vytvořit nové povolení a uložte jej";}
+a:2:{i:0;s:15:"Edit permission";i:1;s:20:"Upravit oprávnění";}
+a:2:{i:0;s:47:"Please edit the permission settings and save it";i:1;s:54:"Prosím, upravte nastavení oprávnění a uložte jej";}
+a:2:{i:0;s:40:"Permission has been successfully removed";i:1;s:38:"Povolení byla úspěšně odstraněna";}
+a:2:{i:0;s:22:"Permission was updated";i:1;s:29:"Povolení bylo aktualizováno";}
+a:2:{i:0;s:15:"Create new role";i:1;s:22:"Vytvořit novou úlohu";}
+a:2:{i:0;s:8:"New Role";i:1;s:10:"Nová Role";}
+a:2:{i:0;s:31:"Create the new role and save it";i:1;s:36:"Vytvořit novou úlohu a uložte jej";}
+a:2:{i:0;s:3:"Key";i:1;s:6:"Klíč";}
+a:2:{i:0;s:25:"The key field is required";i:1;s:31:"Klíčové pole je vyžadováno";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:20:"Maximo %d caracteres";}
+a:2:{i:0;s:54:"Only lowercase letters, characters - and _ are allowed";i:1;s:45:"Pouze malá písmena, znaky _ - jsou povolena";}
+a:2:{i:0;s:48:"Insert the key with which the role is identified";i:1;s:49:"Vložit klíč, s jehož úkolem je identifikovat";}
+a:2:{i:0;s:26:"The name field is required";i:1;s:27:"Název pole je vyžadováno";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:26:"Solo esta permitido letras";}
+a:2:{i:0;s:28:"Insert the name for the role";i:1;s:23:"Vložte jméno pro roli";}
+a:2:{i:0;s:10:"Parent rol";i:1;s:14:"Mateřská rol";}
+a:2:{i:0;s:9:"No parent";i:1;s:15:"Žádný rodič";}
+a:2:{i:0;s:34:"Select a parent role from the list";i:1;s:36:"Vyberte mateřskou úlohu ze seznamu";}
+a:2:{i:0;s:7:"Comment";i:1;s:10:"Komentář";}
+a:2:{i:0;s:29:"Insert a comment for the role";i:1;s:27:"Vložit komentář pro roli";}
+a:2:{i:0;s:10:"Create rol";i:1;s:13:"Vytvořit rol";}
+a:2:{i:0;s:33:"The role was created successfully";i:1;s:34:"Úloha byla úspěšně vytvořena";}
+a:2:{i:0;s:31:"Really want to delete this item";i:1;s:38:"Opravdu chcete odstranit tuto položku";}
+a:2:{i:0;s:41:"Please edit the role settings and save it";i:1;s:48:"Prosím, upravte úlohu nastavení a uložte jej";}
+a:2:{i:0;s:8:"Edit rol";i:1;s:8:"Edit rol";}
+a:2:{i:0;s:20:"The role was updated";i:1;s:27:"Do role byla aktualizována";}
+a:2:{i:0;s:38:"The role has been successfully removed";i:1;s:35:"Úloha byla úspěšně odstraněna";}
+a:2:{i:0;s:19:"Create new resource";i:1;s:21:"Vytvořit nový zdroj";}
+a:2:{i:0;s:12:"New resource";i:1;s:11:"Nový zdroj";}
+a:2:{i:0;s:35:"Create the new resource and save it";i:1;s:35:"Vytvořit nový zdroj a uložte jej";}
+a:2:{i:0;s:52:"Insert the key with which the resource is identified";i:1;s:46:"Vložte klíč, který zdroj je identifikován";}
+a:2:{i:0;s:32:"Insert the name for the resource";i:1;s:24:"Vložte název pro zdroj";}
+a:2:{i:0;s:15:"Parent resource";i:1;s:18:"Mateřská zdrojů";}
+a:2:{i:0;s:34:"Select a parent from resource list";i:1;s:33:"Vyberte rodičů z seznam zdrojů";}
+a:2:{i:0;s:33:"Insert a comment for the resource";i:1;s:28:"Vložit komentář pro zdroj";}
+a:2:{i:0;s:15:"Create resource";i:1;s:15:"Vytvořit zdroj";}
+a:2:{i:0;s:37:"The resource was created successfully";i:1;s:32:"Zdroj byl úspěšně vytvořena";}
+a:2:{i:0;s:13:"Edit resource";i:1;s:14:"Editovat zdroj";}
+a:2:{i:0;s:45:"Please edit the resource settings and save it";i:1;s:54:"Prosím, upravte nastavení prostředků a uložte jej";}
+a:2:{i:0;s:37:"The resource was updated successfully";i:1;s:35:"Zdroj byl úspěšně aktualizován";}
+a:2:{i:0;s:42:"The resource has been successfully removed";i:1;s:32:"Zdroj byl úspěšně odstraněn";}
+a:2:{i:0;s:20:"Create new privilege";i:1;s:27:"Vytvořit nové privilegium";}
+a:2:{i:0;s:13:"New Privilege";i:1;s:18:"Nové Oprávnění";}
+a:2:{i:0;s:36:"Create the new privilege and save it";i:1;s:41:"Vytvořit nové privilegium a uložte jej";}
+a:2:{i:0;s:19:"The key is required";i:1;s:22:"Klíč je požadována";}
+a:2:{i:0;s:16:"Create privilege";i:1;s:22:"Vytvořit oprávnění";}
+a:2:{i:0;s:33:"Enter a comment for the privilege";i:1;s:28:"Zadejte komentář pro čest";}
+a:2:{i:0;s:23:"Select parent privilege";i:1;s:31:"Vyberte mateřské oprávnění";}
+a:2:{i:0;s:16:"Parent privilege";i:1;s:23:"Mateřská oprávnění";}
+a:2:{i:0;s:26:"Insert a name to privilege";i:1;s:27:"Vložit jméno do privilege";}
+a:2:{i:0;s:20:"The name is required";i:1;s:21:"Název je zapotřebí";}
+a:2:{i:0;s:38:"Insert a key to identify the privilege";i:1;s:40:"Vložit klíč k určení typu privilege";}
+a:2:{i:0;s:38:"The privilege was created successfully";i:1;s:33:"Čest byla úspěšně vytvořena";}
+a:2:{i:0;s:14:"Edit privilege";i:1;s:20:"Upravit oprávnění";}
+a:2:{i:0;s:46:"Please edit the privilege settings and save it";i:1;s:54:"Prosím, upravte oprávnění nastavení a uložte jej";}
+a:2:{i:0;s:38:"The privilege was updated successfully";i:1;s:41:"Privilegium byl úspěšně aktualizován";}
+a:2:{i:0;s:43:"The privilege has been successfully removed";i:1;s:38:"Privilegium byl úspěšně odstraněn";}
+a:2:{i:0;s:32:"Could not find the user required";i:1;s:38:"Nemohl najít uživatele, požadované";}
+a:2:{i:0;s:35:"Permission was created successfully";i:1;s:37:"Povolení byla úspěšně vytvořena";}
+a:2:{i:0;s:13:"All resources";i:1;s:15:"Všechny zdroje";}
+a:2:{i:0;s:38:"Could not find the required permission";i:1;s:39:"Nemohl najít požadované oprávnění";}
+a:2:{i:0;s:32:"Could not find the role required";i:1;s:31:"Nemohl najít požadované role";}
+a:2:{i:0;s:20:"Only letters allowed";i:1;s:23:"Pouze písmena povolena";}
+a:2:{i:0;s:36:"Could not find the resource required";i:1;s:31:"Nemohl najít potřebné zdroje";}
+a:2:{i:0;s:37:"Could not find the required privilege";i:1;s:40:"Nemohli najít požadované oprávnění";}
+a:2:{i:0;s:64:"The privilege can not be eliminated due to be present in permits";i:1;s:80:"Oprávnění nemůže být odstraněna z důvodu, aby byl přítomen v povolení";}
+a:2:{i:0;s:5:"email";i:1;s:5:"email";}
+a:2:{i:0;s:4:"Role";i:1;s:4:"Roli";}
+a:2:{i:0;s:8:"Resource";i:1;s:5:"Zdroj";}
+a:2:{i:0;s:9:"Privilege";i:1;s:12:"Oprávnění";}
+a:2:{i:0;s:4:"Name";i:1;s:6:"Jméno";}
+a:2:{i:0;s:7:"Role(s)";i:1;s:7:"Role(s)";}
+a:2:{i:0;s:15:"Change password";i:1;s:13:"Změnit heslo";}
+a:2:{i:0;s:15:"Actual password";i:1;s:16:"Aktuální heslo";}
+a:2:{i:0;s:31:"The actual password is required";i:1;s:32:"Aktuální heslo je vyžadováno";}
+a:2:{i:0;s:36:"The max length of the password is %d";i:1;s:30:"Maximální délka hesla je %d";}
+a:2:{i:0;s:36:"The min length of the password is %d";i:1;s:30:"Minimální délka hesla je %d";}
+a:2:{i:0;s:53:"You can use letters, numbers, and !@#$%^&* characters";i:1;s:55:"Můžete použít písmena, číslice, a !@#$%^&* znaky";}
+a:2:{i:0;s:33:"Please insert the actual password";i:1;s:32:"Prosím vložte aktuální heslo";}
+a:2:{i:0;s:12:"New password";i:1;s:11:"Nové heslo";}
+a:2:{i:0;s:28:"The new password is required";i:1;s:21:"Nové heslo je nutné";}
+a:2:{i:0;s:78:"Please insert the new password using: letters, numbers and !@#$%^&* characters";i:1;s:72:"Prosím, vložte nové heslo pomocí: písmena, čísla a !@#$%^&* znaky";}
+a:2:{i:0;s:19:"Repeat new password";i:1;s:20:"Opakovat nové heslo";}
+a:2:{i:0;s:26:"Please retype the password";i:1;s:29:"Prosím, napište znovu heslo";}
+a:2:{i:0;s:20:"Passwords must match";i:1;s:32:"Las contraseñas deben coincidir";}
+a:2:{i:0;s:31:"Repeat the new password entered";i:1;s:28:"Opakovat nové heslo zadané";}
+a:2:{i:0;s:30:"Your password has been updated";i:1;s:31:"Vaše heslo bylo aktualizováno";}
+a:2:{i:0;s:5:"Email";i:1;s:5:"Email";}
+a:2:{i:0;s:8:"Language";i:1;s:5:"Jazyk";}
+a:2:{i:0;s:36:"Only letters and numbers are allowed";i:1;s:38:"Povoleny jsou pouze písmena a čísla";}
+a:2:{i:0;s:63:"Only lowercase letters, numbers, characters - and _ are allowed";i:1;s:58:"Pouze malá písmena , čísla , znaky - a _ jsou povoleny";}
+a:2:{i:0;s:12:"No resources";i:1;s:11:"Bez zdrojů";}

@@ -1,0 +1,16 @@
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:95:"Advertencia: Quieres hacer cambios en la configuración de la (archivo config.neon) aplicación";}
+a:2:{i:0;s:4:"Home";i:1;s:6:"Inicio";}
+a:2:{i:0;s:12:"App Settings";i:1;s:22:"Ajustes de aplicación";}
+a:2:{i:0;s:7:"App Key";i:1;s:20:"Clave de aplicación";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:14:"Protección Ip";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:16:"Proxys aceptados";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:5:"Salir";}
+a:2:{i:0;s:10:"My profile";i:1;s:9:"Mi perfil";}
+a:2:{i:0;s:8:"My panel";i:1;s:8:"Mi panel";}
+a:2:{i:0;s:9:"Privilege";i:1;s:10:"Privilegio";}
+a:2:{i:0;s:9:"Resources";i:1;s:8:"Recursos";}
+a:2:{i:0;s:5:"Roles";i:1;s:5:"Roles";}
+a:2:{i:0;s:11:"Permissions";i:1;s:8:"Permisos";}
+a:2:{i:0;s:5:"Users";i:1;s:8:"Usuarios";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:16:"Ips restringidas";}

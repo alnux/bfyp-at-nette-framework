@@ -1,0 +1,45 @@
+{form $form}
+<!-- form begin -->
+	<div class="box-body">
+
+		{foreach $form->getComponents(FALSE, 'Nette\Forms\IControl') as $control}
+
+			{if $control->name!='do' && $control->name!='_token_' && !$control instanceof Nette\Forms\Controls\Button}
+
+			<div class="form-group {if $control->required}required{/if} {if $control->errors}has-error{/if}">
+				<div class="control-label">
+					<i n:ifset="$control->errors[0]" class="fa fa-times-circle-o" style="color:red"></i>
+					{if $control->required}
+						{label $control->name class=>"required "/}
+					{else}
+						{label $control->name/}
+					{/if}
+				</div>
+				
+				{if $control->name=='ip'}
+					<div class="input-group">
+        				<div class="input-group-addon">
+            				<i class="fa fa-laptop"></i>
+        				</div>
+						{input $control->name class=>"form-control", data-inputmask=>"'alias': 'ip'", data-mask=>data-mask}
+					</div>	
+				{else}
+					{input $control->name class=>"form-control"}
+				{/if}
+				
+				<span n:ifset="$control->errors[0]" style="color:red; font-size:small; opacity:0.4;">
+					{$control->errors[0]}
+				</span>
+			</div>
+			{/if}
+
+		{/foreach}
+
+	</div>
+	<div class="box-footer">
+		{foreach $form->getComponents(FALSE, 'Nette\Forms\Controls\Button') as $control}
+			{input $control->name class=>"btn btn-primary pull-right"}
+		{/foreach}
+	</div>
+<!-- form end -->
+{/form $form}

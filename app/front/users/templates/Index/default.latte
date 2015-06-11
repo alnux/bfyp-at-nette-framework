@@ -1,0 +1,29 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <p>
+    Hi, you are inside of users's index page.
+    </p>
+    <p>
+    Here you can add presenters of your aplication 
+    </p>
+    <p>
+    Here a sub module of users module <a n:href=":Front:Users:Example:Example:default">Example Presenter</a>, witch 
+    resource does not exist, so it will show you an exception about resource.  
+    </p>
+    Here another user's sub module <a n:href=":Front:Users:Example:Example2:default">Example 2 Presenter</a>, witch 
+    resource is on database to show you.   
+    <p>
+
+    <p>
+    You have to add all your presenter that you want on user or backend module to the resource table and give them
+    permissions.
+    </p>
+    <p>
+    The format you have to use allways is the namespace and presenter by example:  app_front_users_example_presenters_example2presenter
+
+
+    </p>
+    Enjoy it 
+    </p>
+
+{/block}

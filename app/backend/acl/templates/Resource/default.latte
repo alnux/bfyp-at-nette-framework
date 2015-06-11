@@ -1,0 +1,28 @@
+{block css}
+    {include parent}
+    <link href="{$basePath}/bootstrapthemes/startbootstrap/css/orderedList.css" rel="stylesheet" type="text/css">
+{/block}
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-md-2">
+            <p>
+                {if $accesscreate}<a n:href="Resource:newedit" class="btn btn-default"><i class='fa fa-plus-circle'></i> {_'Create new resource'}</a>{/if}
+            </p>
+        </div>
+
+        <div class="col-md-10">
+
+            <table class="table table-striped table-bordered">
+                <tbody >
+                    <tr>
+                        <td>
+                            {include '../commonviews/treeview.latte'}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{/block}

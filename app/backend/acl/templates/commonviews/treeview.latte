@@ -1,0 +1,28 @@
+{var $continue = false}
+{var $depth = 1}
+{block treeview}
+<div class = 'orderlist'>
+<ol>
+	 {foreach $parents as $child}
+	 <li>
+	 	{$child->name}
+		{if $accessedit}<a n:href="edit $child->id" class="btn btn-xs btn-default" data-toggle="tooltip" title="{_ 'Edit'}::&nbsp;&nbsp;{$child->name}"><i class='fa fa-edit'></i></a>{/if}
+		{if $accessdelete}{if !$nodes->hasChildNodes($child->id) && !$nodes->hasPermissionRelation($child->id, $nodes->getRoleOrResourceField())}<a n:href="delete $child->id" onclick="return confirm('{_ 'Really want to delete this item'}')" class="btn btn-xs btn-danger" data-toggle="tooltip" title="{_ 'Delete'}::&nbsp;&nbsp;{$child->name}"><i class='fa fa-trash-o'></i></a>{/if}{/if}
+		{if !empty($child->comment)}
+			<span class="text-muted">
+				<small><br/>| - {$child->comment}</small>
+			</span>
+		{/if}
+	</li>
+	 {if $nodes->hasChildNodes($child->id)}
+		  {if $iterator->isLast() OR $depth==1}
+				{var $continue = false}
+		  {else}
+				{var $continue = true}
+		  {/if}
+		  {include treeview, 'parents' => $nodes->getChildNodes($child->id), 'continue' => $continue, 'depth' => $depth+1}
+	 {/if}
+	 {/foreach}
+</ol>
+</div>
+{/block}

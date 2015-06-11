@@ -1,0 +1,91 @@
+a:2:{i:0;s:9:"Edit role";i:1;s:10:"Editar rol";}
+a:2:{i:0;s:37:"Please edit the user role and save it";i:1;s:44:"Por favor edite el rol de usuario y guardelo";}
+a:2:{i:0;s:20:"Please select a role";i:1;s:27:"Por favor seleccione un rol";}
+a:2:{i:0;s:11:"Update role";i:1;s:14:"Actualizar rol";}
+a:2:{i:0;s:32:"User roles successfully upgraded";i:1;s:51:"Los roles del usuario se actualizaron correctamente";}
+a:2:{i:0;s:21:"Create new permission";i:1;s:19:"Crear nuevo permiso";}
+a:2:{i:0;s:14:"All privileges";i:1;s:21:"Todos los privilegios";}
+a:2:{i:0;s:4:"Edit";i:1;s:6:"Editar";}
+a:2:{i:0;s:6:"Delete";i:1;s:8:"Eliminar";}
+a:2:{i:0;s:22:"Delete this permission";i:1;s:21:"Eliminar este permiso";}
+a:2:{i:0;s:13:"Access denied";i:1;s:15:"Acceso denegado";}
+a:2:{i:0;s:14:"Access granted";i:1;s:15:"Acceso otorgado";}
+a:2:{i:0;s:14:"New Permission";i:1;s:13:"Nuevo permiso";}
+a:2:{i:0;s:17:"- All resources -";i:1;s:22:"- Todos los recursos -";}
+a:2:{i:0;s:24:"Please select a resource";i:1;s:31:"Por favor seleccione un recurso";}
+a:2:{i:0;s:4:"View";i:1;s:3:"Ver";}
+a:2:{i:0;s:6:"Create";i:1;s:5:"Crear";}
+a:2:{i:0;s:16:"Basic Privileges";i:1;s:19:"Privilegios basicos";}
+a:2:{i:0;s:17:"Create permission";i:1;s:13:"Crear permiso";}
+a:2:{i:0;s:6:"Access";i:1;s:6:"Acceso";}
+a:2:{i:0;s:18:"- All privileges -";i:1;s:25:"- Todos los privilegios -";}
+a:2:{i:0;s:25:"Please select a privilege";i:1;s:34:"Por favor seleccione un privilegio";}
+a:2:{i:0;s:30:"Please select a type of access";i:1;s:38:"Por favor seleccione un tipo de acceso";}
+a:2:{i:0;s:35:"The range should be between 0 and 1";i:1;s:29:"El rango debe ser entre 0 y 1";}
+a:2:{i:0;s:37:"Create the new permission and save it";i:1;s:32:"Cree el nuevo permiso y guardelo";}
+a:2:{i:0;s:15:"Edit permission";i:1;s:14:"Editar permiso";}
+a:2:{i:0;s:47:"Please edit the permission settings and save it";i:1;s:37:"Por favor edite el permiso y guardelo";}
+a:2:{i:0;s:40:"Permission has been successfully removed";i:1;s:47:"El permiso ha sido eliminado satisfactoriamente";}
+a:2:{i:0;s:22:"Permission was updated";i:1;s:23:"El permiso se actualizo";}
+a:2:{i:0;s:15:"Create new role";i:1;s:15:"Crear nuevo rol";}
+a:2:{i:0;s:8:"New Role";i:1;s:9:"Nuevo Rol";}
+a:2:{i:0;s:31:"Create the new role and save it";i:1;s:28:"Cree el nuevo rol y guardelo";}
+a:2:{i:0;s:3:"Key";i:1;s:5:"Llave";}
+a:2:{i:0;s:25:"The key field is required";i:1;s:30:"El campo de llave es requerido";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:20:"Maximo %d caracteres";}
+a:2:{i:0;s:54:"Only lowercase letters, characters - and _ are allowed";i:1;s:64:"Solo esta permitido minúsculas y los siguientes caracteres - _ ";}
+a:2:{i:0;s:48:"Insert the key with which the role is identified";i:1;s:53:"Ingrese la llave con la que el rol será identificado";}
+a:2:{i:0;s:26:"The name field is required";i:1;s:32:"El campo del nombre es requerido";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:26:"Solo esta permitido letras";}
+a:2:{i:0;s:28:"Insert the name for the role";i:1;s:25:"Ingrese el nombre del rol";}
+a:2:{i:0;s:10:"Parent rol";i:1;s:9:"Rol padre";}
+a:2:{i:0;s:9:"No parent";i:1;s:13:"Sin rol padre";}
+a:2:{i:0;s:34:"Select a parent role from the list";i:1;s:35:"Seleccione un rol padre de la lista";}
+a:2:{i:0;s:7:"Comment";i:1;s:10:"Comentario";}
+a:2:{i:0;s:29:"Insert a comment for the role";i:1;s:33:"Ingrese un comentario para el rol";}
+a:2:{i:0;s:10:"Create rol";i:1;s:9:"Crear rol";}
+a:2:{i:0;s:33:"The role was created successfully";i:1;s:33:"El rol se creo satisfactoriamente";}
+a:2:{i:0;s:31:"Really want to delete this item";i:1;s:34:"Realmente desea eliminar este item";}
+a:2:{i:0;s:41:"Please edit the role settings and save it";i:1;s:46:"Por favor edite los ajustes del rol y guardelo";}
+a:2:{i:0;s:8:"Edit rol";i:1;s:10:"Editar rol";}
+a:2:{i:0;s:20:"The role was updated";i:1;s:19:"El rol se actualizo";}
+a:2:{i:0;s:38:"The role has been successfully removed";i:1;s:41:"El rol se ha eliminado satisfactoriamente";}
+a:2:{i:0;s:19:"Create new resource";i:1;s:19:"Crear nuevo recurso";}
+a:2:{i:0;s:12:"New resource";i:1;s:13:"Nuevo recurso";}
+a:2:{i:0;s:35:"Create the new resource and save it";i:1;s:32:"Cree el nuevo recurso y guardelo";}
+a:2:{i:0;s:52:"Insert the key with which the resource is identified";i:1;s:63:"Ingrese la palabra clave con la que el recurso se identificará";}
+a:2:{i:0;s:32:"Insert the name for the resource";i:1;s:29:"Ingrese el nombre del recurso";}
+a:2:{i:0;s:15:"Parent resource";i:1;s:13:"Recurso padre";}
+a:2:{i:0;s:34:"Select a parent from resource list";i:1;s:43:"Seleccione un padre de la lista de recursos";}
+a:2:{i:0;s:33:"Insert a comment for the resource";i:1;s:37:"Ingrese un comentario para el recurso";}
+a:2:{i:0;s:15:"Create resource";i:1;s:13:"Crear recurso";}
+a:2:{i:0;s:37:"The resource was created successfully";i:1;s:44:"El recurso ha sido creado satisfactoriamente";}
+a:2:{i:0;s:13:"Edit resource";i:1;s:14:"Editar recurso";}
+a:2:{i:0;s:45:"Please edit the resource settings and save it";i:1;s:50:"Por favor edite los ajustes del recurso y guardelo";}
+a:2:{i:0;s:37:"The resource was updated successfully";i:1;s:42:"El recurso se actualizo satisfactoriamente";}
+a:2:{i:0;s:42:"The resource has been successfully removed";i:1;s:46:"El recurso ha sido eliminado satisfactoramente";}
+a:2:{i:0;s:20:"Create new privilege";i:1;s:22:"Crear nuevo privilegio";}
+a:2:{i:0;s:13:"New Privilege";i:1;s:16:"Nuevo Privilegio";}
+a:2:{i:0;s:36:"Create the new privilege and save it";i:1;s:35:"Cree el nuevo privilegio y guardelo";}
+a:2:{i:0;s:19:"The key is required";i:1;s:3:"la ";}
+a:2:{i:0;s:16:"Create privilege";i:1;s:16:"Crear privilegio";}
+a:2:{i:0;s:33:"Enter a comment for the privilege";i:1;s:40:"Ingrese un comentario para el privilegio";}
+a:2:{i:0;s:23:"Select parent privilege";i:1;s:30:"Seleccione el privilegio padre";}
+a:2:{i:0;s:16:"Parent privilege";i:1;s:16:"Privilegio padre";}
+a:2:{i:0;s:26:"Insert a name to privilege";i:1;s:32:"Ingrese el nombre del privilegio";}
+a:2:{i:0;s:20:"The name is required";i:1;s:22:"El nombre es requerido";}
+a:2:{i:0;s:38:"Insert a key to identify the privilege";i:1;s:62:"Ingrese la palabra clave con la que identificara al privilegio";}
+a:2:{i:0;s:38:"The privilege was created successfully";i:1;s:47:"El privilegio ha sido creado satisfactoriamente";}
+a:2:{i:0;s:14:"Edit privilege";i:1;s:17:"Editar privilegio";}
+a:2:{i:0;s:46:"Please edit the privilege settings and save it";i:1;s:53:"por favor edite los ajustes del privilegio y guardelo";}
+a:2:{i:0;s:38:"The privilege was updated successfully";i:1;s:52:"El privilegio ha sido actualizado satisfactoriamente";}
+a:2:{i:0;s:43:"The privilege has been successfully removed";i:1;s:50:"El privilegio ha sido eliminado satisfactoriamente";}
+a:2:{i:0;s:32:"Could not find the user required";i:1;s:41:"No se pudo encontrar el usuario requerido";}
+a:2:{i:0;s:35:"Permission was created successfully";i:1;s:37:"El permiso se creo satisfactoriamente";}
+a:2:{i:0;s:13:"All resources";i:1;s:18:"Todos los recursos";}
+a:2:{i:0;s:38:"Could not find the required permission";i:1;s:41:"No se pudo encontrar el permiso requerido";}
+a:2:{i:0;s:32:"Could not find the role required";i:1;s:37:"No se pudo encontrar el rol requerido";}
+a:2:{i:0;s:20:"Only letters allowed";i:1;s:23:"Solo se permiten letras";}
+a:2:{i:0;s:36:"Could not find the resource required";i:1;s:41:"No se pudo encontrar el recurso requerido";}
+a:2:{i:0;s:37:"Could not find the required privilege";i:1;s:44:"No se pudo encontrar el privilegio requerido";}
+a:2:{i:0;s:64:"The privilege can not be eliminated due to be present in permits";i:1;s:76:"El privilegio no puede ser eliminado debido a estar presente en los permisos";}

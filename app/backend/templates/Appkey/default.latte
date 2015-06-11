@@ -1,0 +1,10 @@
+{block content}
+    {include '../../../common/templates/@bodyheader.latte'}
+    
+	<table class="table">
+		<tr>
+			<th>{_ 'Aplication key'}:</th>
+			<td>{$appkey}&nbsp;&nbsp;&nbsp;<a n:href=$appkeyaction class="btn btn-danger btn-xs">{$changekey}</a></td>
+		</tr>
+	</table>
+{/block}

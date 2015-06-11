@@ -1,0 +1,40 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-md-2">
+            <p>
+                {if $accesscreate}<a n:href="WhiteProxy:newedit" class="btn btn-default"><i class='fa fa-plus-circle'></i> {_'Accept new proxy'}</a>{/if}
+            </p>
+        </div>
+
+        <div class="col-md-10">
+
+           <table class="table table-striped">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>{_ 'Ip'}</th>
+							<th>{_ 'Reason'}</th>
+							<th>{_ 'Options'}</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+						{foreach $whiteproxys as $whiteproxy}
+							<tr>
+								<td>{$whiteproxy->id}</td>
+								<td>{$whiteproxy->ip}</td>
+							  	<td>{$whiteproxy->reason}</td>
+								<td>
+									{if $accessedit}<a n:href="edit $whiteproxy->id" class="btn btn-default" data-toggle="tooltip" title="{_ 'Edit'}&nbsp;&nbsp;{$whiteproxy->ip}"><i class='fa fa-edit'></i></a>{/if}
+									{if $accessdelete}<a n:href="delete $whiteproxy->id" onclick="return confirm('{_ 'Really want to restrict access to this proxy (ip)'}')" class="btn btn-danger" data-toggle="tooltip" title="{_ 'Delete'}&nbsp;&nbsp;{$whiteproxy->ip}"><i class='fa fa-trash-o'></i></a>{/if}
+								</td>
+							</tr>	
+						{/foreach}	
+							
+					</tbody>
+				</table>
+        </div>
+    </div>
+
+{/block}

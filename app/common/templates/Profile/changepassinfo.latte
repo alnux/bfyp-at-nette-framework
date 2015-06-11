@@ -1,0 +1,14 @@
+{**
+ * @author Leonardo Allende <alnux@ya.ru> 2015
+ *
+ * @param string   $basePath web base path
+ * @param array    $flashes  flash messages
+ *}
+{block content}
+    {include '../@bodyheader.latte'}
+    <div class="row">
+        <div class="col-md-5">
+			{include '../../forms/view/commonviewform.latte', form => $presenter['changePass']}
+        </div>
+    </div>
+{/block}

@@ -1,0 +1,114 @@
+a:2:{i:0;s:4:"Home";i:1;s:8:"Domácí";}
+a:2:{i:0;s:5:"Users";i:1;s:11:"Uživatelé";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:12:"Odhlásit Se";}
+a:2:{i:0;s:9:"Edit role";i:1;s:9:"Edit role";}
+a:2:{i:0;s:7:"Options";i:1;s:9:"Možnosti";}
+a:2:{i:0;s:4:"Role";i:1;s:4:"Role";}
+a:2:{i:0;s:5:"email";i:1;s:5:"email";}
+a:2:{i:0;s:8:"Username";i:1;s:20:"Uživatelské jméno";}
+a:2:{i:0;s:37:"Please edit the user role and save it";i:1;s:41:"Prosím upravte roli uživatele a uložit";}
+a:2:{i:0;s:20:"Please select a role";i:1;s:12:"Vyberte roli";}
+a:2:{i:0;s:11:"Update role";i:1;s:16:"Aktualizace role";}
+a:2:{i:0;s:32:"User roles successfully upgraded";i:1;s:42:"Uživatelské role úspěšně upgradován";}
+a:2:{i:0;s:11:"Permissions";i:1;s:12:"Oprávnění";}
+a:2:{i:0;s:21:"Create new permission";i:1;s:25:"Vytvořit nový povolení";}
+a:2:{i:0;s:14:"All privileges";i:1;s:16:"Všechny výsady";}
+a:2:{i:0;s:4:"Edit";i:1;s:4:"Edit";}
+a:2:{i:0;s:6:"Delete";i:1;s:7:"Vymazat";}
+a:2:{i:0;s:22:"Delete this permission";i:1;s:24:"Smazat toto oprávnění";}
+a:2:{i:0;s:13:"Access denied";i:1;s:18:"Přístup odepřen";}
+a:2:{i:0;s:14:"Access granted";i:1;s:19:"Umožněn přístup";}
+a:2:{i:0;s:14:"New Permission";i:1;s:15:"Nová povolení";}
+a:2:{i:0;s:8:"Resource";i:1;s:11:"Prostředky";}
+a:2:{i:0;s:17:"- All resources -";i:1;s:19:"- Všechny zdroje -";}
+a:2:{i:0;s:24:"Please select a resource";i:1;s:22:"Prosím, vyberte zdroj";}
+a:2:{i:0;s:4:"View";i:1;s:6:"Pohled";}
+a:2:{i:0;s:6:"Create";i:1;s:9:"Vytvořit";}
+a:2:{i:0;s:16:"Basic Privileges";i:1;s:18:"Základní Výsady";}
+a:2:{i:0;s:17:"Create permission";i:1;s:19:"Vytvořit povolení";}
+a:2:{i:0;s:6:"Access";i:1;s:9:"Přístup";}
+a:2:{i:0;s:9:"Privilege";i:1;s:7:"Výsada";}
+a:2:{i:0;s:18:"- All privileges -";i:1;s:20:"- Všechny výsady -";}
+a:2:{i:0;s:25:"Please select a privilege";i:1;s:27:"Prosím vyberte privilegium";}
+a:2:{i:0;s:30:"Please select a type of access";i:1;s:31:"Prosím, vyberte typ přístupu";}
+a:2:{i:0;s:35:"The range should be between 0 and 1";i:1;s:20:"Rozsah je mezi 0 a 1";}
+a:2:{i:0;s:37:"Create the new permission and save it";i:1;s:41:"Vytvoření nové povolení a uložte jej";}
+a:2:{i:0;s:15:"Edit permission";i:1;s:20:"Upravit oprávnění";}
+a:2:{i:0;s:47:"Please edit the permission settings and save it";i:1;s:53:"Prosím upravte nastavení oprávnění a uložte jej";}
+a:2:{i:0;s:40:"Permission has been successfully removed";i:1;s:37:"Povolení bylo úspěšně odstraněn";}
+a:2:{i:0;s:22:"Permission was updated";i:1;s:29:"Povolení bylo aktualizováno";}
+a:2:{i:0;s:15:"Create new role";i:1;s:20:"Vytvořit novou roli";}
+a:2:{i:0;s:5:"Roles";i:1;s:4:"Role";}
+a:2:{i:0;s:8:"New Role";i:1;s:10:"Nová Role";}
+a:2:{i:0;s:31:"Create the new role and save it";i:1;s:34:"Vytvořte novou roli a uložte jej";}
+a:2:{i:0;s:3:"Key";i:1;s:6:"klíč";}
+a:2:{i:0;s:25:"The key field is required";i:1;s:30:"Požaduje se, aby pole klíče";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:13:"Max %d znaků";}
+a:2:{i:0;s:54:"Only lowercase letters, characters - and _ are allowed";i:1;s:48:"Pouze malá písmena , znaky - a _ jsou povoleny";}
+a:2:{i:0;s:48:"Insert the key with which the role is identified";i:1;s:49:"Vložte klíč , se kterou je role identifikován";}
+a:2:{i:0;s:4:"Name";i:1;s:6:"Název";}
+a:2:{i:0;s:26:"The name field is required";i:1;s:26:"Je vyžadovánoNázev pole";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:28:"Pouze písmena jsou povoleny";}
+a:2:{i:0;s:28:"Insert the name for the role";i:1;s:19:"Vložte název role";}
+a:2:{i:0;s:10:"Parent rol";i:1;s:8:"Otec rol";}
+a:2:{i:0;s:9:"No parent";i:1;s:15:"žádný rodič";}
+a:2:{i:0;s:34:"Select a parent role from the list";i:1;s:36:"Vyberte mateřský úlohu ze seznamu";}
+a:2:{i:0;s:7:"Comment";i:1;s:10:"komentář";}
+a:2:{i:0;s:29:"Insert a comment for the role";i:1;s:27:"Vložit komentář k úloze";}
+a:2:{i:0;s:10:"Create rol";i:1;s:13:"Vytvořit rol";}
+a:2:{i:0;s:33:"The role was created successfully";i:1;s:30:"Role byl úspěšně vytvořen";}
+a:2:{i:0;s:31:"Really want to delete this item";i:1;s:35:"Opravdu chcete smazat tuto položku";}
+a:2:{i:0;s:41:"Please edit the role settings and save it";i:1;s:45:"Prosím upravte nastavení role a uložte jej";}
+a:2:{i:0;s:8:"Edit rol";i:1;s:8:"Edit rol";}
+a:2:{i:0;s:20:"The role was updated";i:1;s:24:"Role byla aktualizována";}
+a:2:{i:0;s:38:"The role has been successfully removed";i:1;s:35:"Úloha byla úspěšně odstraněna";}
+a:2:{i:0;s:9:"Resources";i:1;s:6:"Zdroje";}
+a:2:{i:0;s:19:"Create new resource";i:1;s:21:"Vytvořit nový zdroj";}
+a:2:{i:0;s:12:"New resource";i:1;s:11:"Nový zdroj";}
+a:2:{i:0;s:35:"Create the new resource and save it";i:1;s:40:"Vytvoření nového zdroje a uložte jej";}
+a:2:{i:0;s:52:"Insert the key with which the resource is identified";i:1;s:47:"Vložte klíč , s níž jezdroj identifikován";}
+a:2:{i:0;s:32:"Insert the name for the resource";i:1;s:21:"Vložte název zdroje";}
+a:2:{i:0;s:15:"Parent resource";i:1;s:10:"Otec zdroj";}
+a:2:{i:0;s:34:"Select a parent from resource list";i:1;s:43:"Vyberte jeden z rodičů ze seznamu zdrojů";}
+a:2:{i:0;s:33:"Insert a comment for the resource";i:1;s:29:"Vložit komentář pro zdroje";}
+a:2:{i:0;s:15:"Create resource";i:1;s:15:"Vytvořit zdroj";}
+a:2:{i:0;s:37:"The resource was created successfully";i:1;s:31:"Zdroj byl úspěšně vytvořen";}
+a:2:{i:0;s:13:"Edit resource";i:1;s:13:"Upravit zdroj";}
+a:2:{i:0;s:45:"Please edit the resource settings and save it";i:1;s:53:"Prosím upravte nastavení prostředků a uložte jej";}
+a:2:{i:0;s:37:"The resource was updated successfully";i:1;s:35:"Zdroj byl úspěšně aktualizován";}
+a:2:{i:0;s:42:"The resource has been successfully removed";i:1;s:32:"Zdroj byl úspěšně odstraněn";}
+a:2:{i:0;s:10:"Privileges";i:1;s:7:"Výsady";}
+a:2:{i:0;s:20:"Create new privilege";i:1;s:28:"Vytvořit nový oprávnění";}
+a:2:{i:0;s:13:"New Privilege";i:1;s:17:"Nové privilegium";}
+a:2:{i:0;s:36:"Create the new privilege and save it";i:1;s:39:"Vytvoření nové výsady a uložte jej";}
+a:2:{i:0;s:19:"The key is required";i:1;s:20:"Je zapotřebíklíč";}
+a:2:{i:0;s:16:"Create privilege";i:1;s:22:"Vytvořit oprávnění";}
+a:2:{i:0;s:33:"Enter a comment for the privilege";i:1;s:36:"Napište komentář pro tuto výsadu";}
+a:2:{i:0;s:23:"Select parent privilege";i:1;s:21:"Vybrat rodič výsada";}
+a:2:{i:0;s:16:"Parent privilege";i:1;s:12:"Otec výsada";}
+a:2:{i:0;s:26:"Insert a name to privilege";i:1;s:25:"Vložte název na výsady";}
+a:2:{i:0;s:20:"The name is required";i:1;s:24:"Požaduje se, aby název";}
+a:2:{i:0;s:38:"Insert a key to identify the privilege";i:1;s:37:"Vložte klíč k identifikaci výsadu";}
+a:2:{i:0;s:38:"The privilege was created successfully";i:1;s:37:"Privilegium byl úspěšně vytvořen";}
+a:2:{i:0;s:14:"Edit privilege";i:1;s:12:"Edit výsada";}
+a:2:{i:0;s:46:"Please edit the privilege settings and save it";i:1;s:52:"Prosím upravte nastavení privilegií a uložte jej";}
+a:2:{i:0;s:38:"The privilege was updated successfully";i:1;s:41:"Privilegium byl úspěšně aktualizován";}
+a:2:{i:0;s:43:"The privilege has been successfully removed";i:1;s:35:"Výsada byla úspěšně odstraněn";}
+a:2:{i:0;s:12:"App Settings";i:1;s:19:"Nastavení aplikace";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:83:"Upozornění : Chcete , aby se změny v konfiguraci (soubor config.neon ) žádosti";}
+a:2:{i:0;s:7:"App Key";i:1;s:7:"App Key";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:9:"Krytí ip";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:13:"Proxy přijal";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:10:"Ips Omezen";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:8:"My panel";i:1;s:10:"Můj panel";}
+a:2:{i:0;s:10:"My profile";i:1;s:11:"Můj profil";}
+a:2:{i:0;s:32:"Could not find the user required";i:1;s:36:"Nelze najít uživatele požadovanou";}
+a:2:{i:0;s:35:"Permission was created successfully";i:1;s:35:"Povolení byl úspěšně vytvořen";}
+a:2:{i:0;s:13:"All resources";i:1;s:15:"Všechny zdroje";}
+a:2:{i:0;s:38:"Could not find the required permission";i:1;s:35:"Nelze najít požadované povolení";}
+a:2:{i:0;s:32:"Could not find the role required";i:1;s:30:"Nelze najít roli požadovanou";}
+a:2:{i:0;s:20:"Only letters allowed";i:1;s:22:"Pouze písmena povolen";}
+a:2:{i:0;s:36:"Could not find the resource required";i:1;s:31:"Nelze najít zdroj požadovanou";}
+a:2:{i:0;s:37:"Could not find the required privilege";i:1;s:38:"Nelze najít požadované oprávnění";}
+a:2:{i:0;s:64:"The privilege can not be eliminated due to be present in permits";i:1;s:71:"Privilegium nelze odstranit z důvodu , že je přítomen v povoleních";}

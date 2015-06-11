@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{ifset #title}{include title|striptags} | {/ifset}{$site_title}</title>
+
+    {block css}
+        <!-- Bootstrap Core CSS -->
+        <link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="{$basePath}/bootstrapthemes/startbootstrap/css/modern-business.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="{$basePath}/bootstrapthemes/startbootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    {/block}
+    
+    <link rel="shortcut icon" href="{$basePath}/favicon.ico">
+    {block head}{/block}
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" n:href=":Front:Index:default">{$site_title}</a>
+                <!-- Language -->
+                <div class="pull-left info">
+                    <br>
+                    {foreach $languages as $language}
+                        [<a n:href="changeLanguage!, $language">{$language}</a>]
+                    {/foreach}
+
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <!-- Paypal donate button ******************************************** -->
+                    <li>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="alnux@ya.ru">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="item_name" value="nttSBP_donation">
+                            <input type="hidden" name="item_number" value="nttSBP_donation">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="currency_code" value="EUR">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+
+                    </li>
+                    <!-- End Paypal donate button *****************************************-->
+                    
+                    {ifset $menu}
+                        {include '_menus/@'.$menu.'.latte'}
+                    {/ifset}
+                    {include '_menus/@signmenu.latte'}         
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+
+     <div class="container">
+        {include content}
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2015</p>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+{block script}
+    <!-- jQuery -->
+    <script src="{$basePath}/bootstrapthemes/startbootstrap/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{$basePath}/bootstrapthemes/startbootstrap/js/bootstrap.min.js"></script>
+    <!-- Nette Scripts -->
+    <script src="{$basePath}/js/netteForms.js"></script>
+    <script src="{$basePath}/js/main.js"></script>
+{/block}
+
+</body>
+
+</html>

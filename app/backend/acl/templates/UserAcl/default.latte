@@ -1,0 +1,41 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10">
+
+            <table class="table table-striped">
+
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>{_ 'Username'}</th>
+						<th>{_ 'email'}</th>
+						<th>{_ 'Role'}</th>
+						<th>{_ 'Options'}</th>
+					</tr>
+				</thead>
+				<tbody>
+
+					{foreach $users as $user}
+						<tr>
+							<td>{$user->id}</td>
+							<td>{$user->username}</td>
+							<td>{$user->email}</td>
+							<td>{$roles->infoUserRoles($user->id)}</td>
+							<td>
+								{if $accessedit}<a n:href="editrole $user->id" class="btn btn-default" data-toggle="tooltip" title="{_ 'Edit role'}&nbsp;&nbsp;{$user->username}"><i class='fa fa-street-view'></i></a>{/if}
+							</td>
+						</tr>
+					{/foreach}
+
+				</tbody>
+
+
+            </table>
+        </div>
+    </div>
+
+{/block}

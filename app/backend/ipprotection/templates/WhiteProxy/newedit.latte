@@ -1,0 +1,20 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-lg-5">
+            {include '../../forms/view/blackipwhiteproxy.latte', form => $presenter['newEdit']}
+        </div>
+    </div>
+{/block}
+
+{block script}
+   {include parent}
+    <script src="{$basePath}/modules/ipprotection/js/input-mask/jquery.inputmask.js" type="text/javascript"></script>
+    <script src="{$basePath}/modules/ipprotection/js/input-mask/jquery.inputmask.extensions.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function() {
+        $("[data-mask]").inputmask();
+       });
+    </script>
+{/block}

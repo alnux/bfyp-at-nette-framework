@@ -1,0 +1,75 @@
+<!-- APPSETTINGS MENU -->
+{ifset $menuitemsaccess['group_backend_appsettings']}
+<li class="dropdown {if isset($activeappsettings)}{$activeappsettings}{/if}">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-cogs"></i> {_ 'App Settings'}<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        {ifset $menuitemsaccess['app_backend_presenters_appkeypresenter']}
+            <li {if isset($activeappkey)}class="{$activeappkey}"{/if}>
+                <a n:href=":Backend:AppKey:default" onclick="return confirm('{_ 'Warning: Do you want to make changes to the configuration of the application (config.neon file)'}')"><i class="fa fa-angle-double-right"></i> {_ 'App Key'}</a>
+            </li>
+        {/ifset} 
+    </ul>
+</li>
+{/ifset}
+<!-- END APP KEY MENU -->
+
+<!-- IPPROTECTION MENU -->
+{ifset $menuitemsaccess['group_backend_ipprotection']}
+    <li class="dropdown {if isset($activeipp)}{$activeipp}{/if}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-umbrella"></i> {_ 'Ip Protection'}<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {ifset $menuitemsaccess['app_backend_ipprotection_presenters_whiteproxypresenter']}
+                <li {if isset($activeippwhiteproxy)}class="{$activeippwhiteproxy}"{/if}>
+                    <a n:href=":Backend:IpProtection:WhiteProxy:default"><i class="fa fa-angle-double-right"></i> {_ 'Proxies Accepted'}</a>
+                </li>
+            {/ifset}
+            {ifset $menuitemsaccess['app_backend_ipprotection_presenters_blackippresenter']}
+                <li {if isset($activeippblackip)}class="{$activeippblackip}"{/if}>
+                    <a n:href=":Backend:IpProtection:BlackIp:default"><i class="fa fa-angle-double-right"></i> {_ 'Ips Restricted'}</a>
+                </li>
+            {/ifset}    
+        </ul>
+    </li>
+{/ifset}
+<!-- END IPPROTECTION MENU -->
+
+
+<!-- ACL MENU -->
+{ifset $menuitemsaccess['group_backend_acl']}
+    <li class="dropdown {if isset($activeacl)}{$activeacl}{/if}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-users"></i> {_ 'Acl'}<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {ifset $menuitemsaccess['app_backend_acl_presenters_useraclpresenter']}
+                <li {if isset($activeacluser)}class="{$activeacluser}"{/if}>
+                    <a n:href=":Backend:Acl:UserAcl:default"><i class="fa fa-angle-double-right"></i> {_ 'Users'}</a>
+                </li>
+            {/ifset}
+            {ifset $menuitemsaccess['app_backend_acl_presenters_permissionpresenter']}
+                <li {if isset($activeaclpermission)}class="{$activeaclpermission}"{/if}>
+                    <a n:href=":Backend:Acl:Permission:default"><i class="fa fa-angle-double-right"></i> {_ 'Permissions'}</a>
+                </li>
+            {/ifset}
+            {ifset $menuitemsaccess['app_backend_acl_presenters_rolepresenter']}
+                <li {if isset($activeaclrole)}class="{$activeaclrole}"{/if}>
+                    <a n:href=":Backend:Acl:Role:default"><i class="fa fa-angle-double-right"></i> {_ 'Roles'}</a>
+                </li>
+            {/ifset}
+            {ifset $menuitemsaccess['app_backend_acl_presenters_resourcepresenter']}
+                <li {if isset($activeaclresource)}class="{$activeaclresource}"{/if}>
+                    <a n:href=":Backend:Acl:Resource:default"><i class="fa fa-angle-double-right"></i> {_ 'Resources'}</a>
+                </li>
+            {/ifset}
+            {ifset $menuitemsaccess['app_backend_acl_presenters_privilegepresenter']}
+                <li {if isset($activeaclprivilege)}class="{$activeaclprivilege}"{/if}>
+                    <a n:href=":Backend:Acl:Privilege:default"><i class="fa fa-angle-double-right"></i> {_ 'Privileges'}</a>
+                </li>
+            {/ifset}
+        </ul>
+    </li>
+{/ifset}
+<!-- END ACL MENU -->
+<!-- REGULAR USER MENU -->
+<li>
+    <a n:href=":Front:Users:Index:default">[{_ 'My panel'}]</a>
+</li>
+<!-- END REGULAR USER MENU -->

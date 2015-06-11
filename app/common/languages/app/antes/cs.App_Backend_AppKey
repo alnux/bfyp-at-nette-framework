@@ -1,0 +1,21 @@
+a:2:{i:0;s:4:"Home";i:1;s:8:"Domácí";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:12:"Odhlásit Se";}
+a:2:{i:0;s:12:"App Settings";i:1;s:19:"Nastavení aplikace";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:83:"Upozornění : Chcete , aby se změny v konfiguraci (soubor config.neon ) žádosti";}
+a:2:{i:0;s:7:"App Key";i:1;s:12:"Aplikace Key";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:9:"krytí IP";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:14:"Proxy Accepted";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:14:"Ips Restricted";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:5:"Users";i:1;s:11:"Uživatelé";}
+a:2:{i:0;s:11:"Permissions";i:1;s:12:"Oprávnění";}
+a:2:{i:0;s:5:"Roles";i:1;s:4:"Role";}
+a:2:{i:0;s:9:"Resources";i:1;s:6:"Zdroje";}
+a:2:{i:0;s:9:"Privilege";i:1;s:7:"Výsada";}
+a:2:{i:0;s:8:"My panel";i:1;s:10:"Můj panel";}
+a:2:{i:0;s:10:"My profile";i:1;s:11:"Můj profil";}
+a:2:{i:0;s:21:"Change value (step 1)";i:1;s:26:"Změna hodnoty (stupeň 1)";}
+a:2:{i:0;s:14:"Aplication key";i:1;s:15:"Aplikace klíč";}
+a:2:{i:0;s:22:"Setup app key (step 1)";i:1;s:33:"Aplikace Setup klíč (stupeň 1)";}
+a:2:{i:0;s:149:"Please change the 'AppKey' value on config.neon file and press 'Change value (step 2)' button. If everything goes OK you will logout from application";i:1;s:184:"Prosím, změňte hodnotu " AppKey " na config.neon soubor a stiskněte tlačítko " Změna hodnoty ( krok 2 )" tlačítko . Pokud půjde vše v pořádku , budete odhlásit z aplikace";}
+a:2:{i:0;s:21:"Change value (step 2)";i:1;s:26:"Změna hodnoty (stupeň 2)";}

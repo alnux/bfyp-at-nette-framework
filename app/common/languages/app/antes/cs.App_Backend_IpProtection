@@ -1,0 +1,45 @@
+a:2:{i:0;s:4:"Home";i:1;s:8:"Domácí";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:14:"Proxy Accepted";}
+a:2:{i:0;s:12:"App Settings";i:1;s:19:"Nastavení aplikace";}
+a:2:{i:0;s:7:"App Key";i:1;s:7:"App Key";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:9:"krytí IP";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:7:"Options";i:1;s:9:"Možnosti";}
+a:2:{i:0;s:6:"Reason";i:1;s:6:"Důvod";}
+a:2:{i:0;s:2:"Ip";i:1;s:2:"Ip";}
+a:2:{i:0;s:16:"Accept new proxy";i:1;s:21:"Přijmout nový proxy";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:12:"Odhlásit Se";}
+a:2:{i:0;s:10:"My profile";i:1;s:11:"Můj profil";}
+a:2:{i:0;s:8:"My panel";i:1;s:10:"Můj panel";}
+a:2:{i:0;s:9:"Privilege";i:1;s:7:"Výsada";}
+a:2:{i:0;s:9:"Resources";i:1;s:6:"Zdroje";}
+a:2:{i:0;s:5:"Roles";i:1;s:4:"Role";}
+a:2:{i:0;s:11:"Permissions";i:1;s:12:"Oprávnění";}
+a:2:{i:0;s:5:"Users";i:1;s:11:"Uživatelé";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:14:"Ips Restricted";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:83:"Upozornění : Chcete , aby se změny v konfiguraci (soubor config.neon ) žádosti";}
+a:2:{i:0;s:11:"Blocked Ips";i:1;s:13:"Blokované ip";}
+a:2:{i:0;s:12:"Block new ip";i:1;s:14:"Block nové ip";}
+a:2:{i:0;s:9:"Ip number";i:1;s:10:"číslo ip";}
+a:2:{i:0;s:28:"Please insert a number of ip";i:1;s:26:"Prosím vložte číslo ip";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:13:"Max %d znaků";}
+a:2:{i:0;s:33:"You can only use numbers and dots";i:1;s:42:"Můžete použít pouze číslice a tečky";}
+a:2:{i:0;s:20:"Enter a number of ip";i:1;s:18:"Zadejte číslo ip";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:28:"Pouze písmena jsou povoleny";}
+a:2:{i:0;s:16:"Enter the reason";i:1;s:14:"Zadejte důvod";}
+a:2:{i:0;s:8:"Block ip";i:1;s:8:"Block ip";}
+a:2:{i:0;s:23:"The ip has been blocked";i:1;s:18:"Ip byl zablokován";}
+a:2:{i:0;s:4:"Edit";i:1;s:4:"Edit";}
+a:2:{i:0;s:58:"Really want to remove the restriction to this number of ip";i:1;s:52:"Opravdu chcete odstranit omezení na tento počet ip";}
+a:2:{i:0;s:6:"Delete";i:1;s:7:"Vymazat";}
+a:2:{i:0;s:15:"Edit Blocked ip";i:1;s:20:"Edit blokovaných ip";}
+a:2:{i:0;s:38:"Could not find the required blocked ip";i:1;s:41:"Nelze najít požadovaný blokovaných IP";}
+a:2:{i:0;s:30:"The blocked ip has been update";i:1;s:29:"Blokován ip byla aktualizace";}
+a:2:{i:0;s:36:"Blocking the ip successfully removed";i:1;s:37:"Blokování ip úspěšně odstraněn";}
+a:2:{i:0;s:9:"New proxy";i:1;s:11:"Nový proxy";}
+a:2:{i:0;s:9:"Add proxy";i:1;s:13:"Přidat proxy";}
+a:2:{i:0;s:30:"The new proxy has been created";i:1;s:27:"Nový Proxy byla vytvořena";}
+a:2:{i:0;s:49:"Really want to restrict access to this proxy (ip)";i:1;s:61:"Opravdu chcete omezit přístup k tomuto serveru proxy ( ip )";}
+a:2:{i:0;s:10:"Edit proxy";i:1;s:10:"Edit proxy";}
+a:2:{i:0;s:26:"The proxy has been updated";i:1;s:23:"Proxy byl aktualizován";}
+a:2:{i:0;s:35:"Proxy has been successfully removed";i:1;s:34:"Proxy byla úspěšně odstraněna";}

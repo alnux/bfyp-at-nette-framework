@@ -1,0 +1,5 @@
+parameters:
+nette:
+    debugger:
+        bar:
+            - LiveTranslator\Panel

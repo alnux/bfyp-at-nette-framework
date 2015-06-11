@@ -1,0 +1,8 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-lg-5">
+            {include '../../../../common/forms/view/commonviewform.latte', form => $presenter['newEdit']}
+        </div>
+    </div>
+{/block}

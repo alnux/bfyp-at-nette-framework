@@ -1,0 +1,57 @@
+{block css}
+	{include parent}
+	<link href="{$basePath}/bootstrapthemes/startbootstrap/css/orderedList.css" rel="stylesheet" type="text/css">
+{/block}
+{block content}
+	{include '../../../../common/templates/@bodyheader.latte'}
+	<div class="row">
+		<div class="col-md-2">
+			<p>
+				{if $accesscreate}<a n:href="Permission:newedit" class="btn btn-default"><i class='fa fa-plus-circle'></i> {_'Create new permission'}</a>{/if}
+			</p>
+		</div>
+
+		<div class="col-md-10">
+
+			<table class="table table-striped table-bordered">
+				<tbody >
+					<tr>
+						<td>
+							<div class = 'orderlist'>
+								<ol>
+									{foreach $permissions->getPermissionsGrouped() as $permission}
+										<li>
+											{$permission->role->name}
+											<ol>
+												{foreach  $permissions->getResourcesGrouped($permission->role_id) as $resource}
+													<li>
+														{if $resource->resource_id}{$resource->resource->name}{else}{_ 'All resources'}{/if}
+															<ol>
+															{foreach $permissions->getPrivileges($permission->role_id, $resource->resource_id) as $privilege}
+
+																	<i n:if="$privilege->access" style="color:green;font-size:15px;" class='fa fa fa-check' data-toggle="tooltip" title="{_ 'Access granted'}"></i>
+																	<i n:if="!$privilege->access" style="color:red;font-size:15px;" class='fa fa fa-times' data-toggle="tooltip" title="{_ 'Access denied'}"></i>
+																	&nbsp;&nbsp;
+																	{if $privilege->privilege_id}{$privilege->privilege->name}{else}{_ 'All privileges'}{/if}
+
+																	{if $accessedit}<a n:href="edit $privilege->id" class="btn btn-xs btn-default" data-toggle="tooltip" title="{_ 'Edit'}"><i class='fa fa-edit'></i></a>{/if}
+																	{if $accessdelete}<a n:href="delete $privilege->id" onclick="return confirm('{_ 'Delete this permission'}')" class="btn btn-xs btn-danger" data-toggle="tooltip" title="{_ 'Delete'}"><i class='fa fa-trash-o'></i></a>{/if}
+																	<br/>
+
+															{/foreach}
+															</ol>
+													</li>
+												{/foreach}
+											</ol>
+										</li>
+									{/foreach}
+								</ol>
+							</div>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+{/block}

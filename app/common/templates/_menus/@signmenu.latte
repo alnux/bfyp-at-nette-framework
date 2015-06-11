@@ -1,0 +1,32 @@
+<!-- FRONT GUEST USER MENU -->
+{if !$this->user->isLoggedIn()}
+    <li class ="{if isset($activesignup)}{$activesignup}{/if}">
+        <a n:href=":Common:Sign:signup">{_ 'Sign Up'}</a>
+    </li>
+    <li class ="{if isset($activesignin)}{$activesignin}{/if}">
+        <a n:href=":Common:Sign:signin">{_ 'Sign In'}</a>
+    </li>
+{/if}
+<!-- END FRONT GUEST USER MENU -->
+
+<!-- LOGGED USER MENU -->
+{if $this->user->isLoggedIn()}
+    <li class="dropdown {if isset($activeuser)}{$activeuser}{/if}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-user"></i> {$this->user->getId()}<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+    		
+            {ifset $menuitemsaccess['app_common_presenters_profilepresenter']}
+                <li {if isset($activeuserprofile)}class="{$activeuserprofile}"{/if}>
+        		  <a n:href=":Common:Profile:default"><i class="fa fa-angle-double-right"></i> {_ 'My profile'}</a>
+    		  </li>
+            {/ifset}
+    		
+            <li>
+        		<a n:href=":Common:Sign:logout"><i class="fa fa-angle-double-right"></i> {_ 'Sign Out'}</a>
+    		</li>   
+
+        </ul>
+    </li>
+
+{/if}
+<!-- END LOGGED USER MENU -->

@@ -1,0 +1,18 @@
+{block content}
+    {include '../../../../common/templates/@bodyheader.latte'}
+    <div class="row">
+        <div class="col-md-2">
+
+				<i class="fa fa-user-plus fa-4x"></i>
+				<p>
+					{$userrole['username']}
+					<br/><small>{$userrole['email']}</small>
+				</p>
+
+        </div>
+
+        <div class="col-md-10">
+			{include '../../../../common/forms/view/commonviewform.latte', form => $presenter['editRole']}
+        </div>
+    </div>
+{/block}

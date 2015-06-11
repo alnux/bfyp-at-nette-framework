@@ -1,0 +1,46 @@
+a:2:{i:0;s:4:"Home";i:1;s:6:"Inicio";}
+a:2:{i:0;s:16:"Proxies Accepted";i:1;s:16:"Proxys aceptados";}
+a:2:{i:0;s:12:"App Settings";i:1;s:22:"Ajustes de aplicación";}
+a:2:{i:0;s:7:"App Key";i:1;s:20:"Clave de aplicación";}
+a:2:{i:0;s:13:"Ip Protection";i:1;s:14:"Protección Ip";}
+a:2:{i:0;s:3:"Acl";i:1;s:3:"Acl";}
+a:2:{i:0;s:7:"Options";i:1;s:8:"Opciones";}
+a:2:{i:0;s:6:"Reason";i:1;s:6:"Razón";}
+a:2:{i:0;s:2:"Ip";i:1;s:2:"Ip";}
+a:2:{i:0;s:16:"Accept new proxy";i:1;s:19:"Aceptar nuevo proxy";}
+a:2:{i:0;s:8:"Sign Out";i:1;s:5:"Salir";}
+a:2:{i:0;s:10:"My profile";i:1;s:9:"Mi perfil";}
+a:2:{i:0;s:8:"My panel";i:1;s:8:"Mi panel";}
+a:2:{i:0;s:9:"Privilege";i:1;s:10:"Privilegio";}
+a:2:{i:0;s:9:"Resources";i:1;s:8:"Recursos";}
+a:2:{i:0;s:5:"Roles";i:1;s:5:"Roles";}
+a:2:{i:0;s:11:"Permissions";i:1;s:8:"Permisos";}
+a:2:{i:0;s:5:"Users";i:1;s:8:"Usuarios";}
+a:2:{i:0;s:14:"Ips Restricted";i:1;s:16:"Ips restringidas";}
+a:2:{i:0;s:95:"Warning: Do you want to make changes to the configuration of the application (config.neon file)";i:1;s:95:"Advertencia: Quieres hacer cambios en la configuración de la (archivo config.neon) aplicación";}
+a:2:{i:0;s:11:"Blocked Ips";i:1;s:14:"Ips Bloqueadas";}
+a:2:{i:0;s:12:"Block new ip";i:1;s:17:"Bloquear nueva ip";}
+a:2:{i:0;s:9:"Ip number";i:1;s:13:"Número de ip";}
+a:2:{i:0;s:28:"Please insert a number of ip";i:1;s:34:"Por favor ingrese un número de ip";}
+a:2:{i:0;s:17:"Max %d characters";i:1;s:20:"Maximo %d caracteres";}
+a:2:{i:0;s:33:"You can only use numbers and dots";i:1;s:33:"Solo puede usar números y puntos";}
+a:2:{i:0;s:20:"Enter a number of ip";i:1;s:24:"Ingrese un número de ip";}
+a:2:{i:0;s:24:"Only letters are allowed";i:1;s:23:"Solo se permiten letras";}
+a:2:{i:0;s:16:"Enter the reason";i:1;s:17:"Ingrese la razón";}
+a:2:{i:0;s:8:"Block ip";i:1;s:11:"Bloquear ip";}
+a:2:{i:0;s:23:"The ip has been blocked";i:1;s:23:"La ip ha sido bloqueada";}
+a:2:{i:0;s:4:"Edit";i:1;s:6:"Editar";}
+a:2:{i:0;s:58:"Really want to remove the restriction to this number of ip";i:1;s:51:"Desea eliminar la restricción a este número de ip";}
+a:2:{i:0;s:6:"Delete";i:1;s:8:"Eliminar";}
+a:2:{i:0;s:15:"Edit ip blocked";i:1;s:19:"Editar ip bloqueada";}
+a:2:{i:0;s:15:"Edit Blocked ip";i:1;s:19:"Editar ip bloqueada";}
+a:2:{i:0;s:38:"Could not find the required blocked ip";i:1;s:44:"No se pudo encontrar la ip bloqueada deseada";}
+a:2:{i:0;s:30:"The blocked ip has been update";i:1;s:35:"La ip bloqueada ha sido actualizada";}
+a:2:{i:0;s:36:"Blocking the ip successfully removed";i:1;s:32:"La ip bloqueada a sido eliminada";}
+a:2:{i:0;s:9:"New proxy";i:1;s:11:"Nuevo proxy";}
+a:2:{i:0;s:9:"Add proxy";i:1;s:13:"Agregar proxy";}
+a:2:{i:0;s:30:"The new proxy has been created";i:1;s:25:"El proxy ha sido agregado";}
+a:2:{i:0;s:49:"Really want to restrict access to this proxy (ip)";i:1;s:44:"Desea restringir el acceso a este proxy (ip)";}
+a:2:{i:0;s:10:"Edit proxy";i:1;s:12:"Editar proxy";}
+a:2:{i:0;s:26:"The proxy has been updated";i:1;s:28:"El proxy ha sido actualizado";}
+a:2:{i:0;s:35:"Proxy has been successfully removed";i:1;s:45:"El proxy ha sido eliminado satisfactoriamente";}

@@ -1,0 +1,14 @@
+{block bodyheader}
+	<div class="row">
+		<div class="col-lg-12">
+		    <h3 n:block=title>{$title}</h3>
+		    <small>{control breadCrumb}</small>
+		    {include '@flashes.latte'}
+		    
+		    <p n:if="isset($page_description)">
+		        {$page_description}
+		    </p>
+		    <hr>
+		</div>
+	</div>
+{/block}
