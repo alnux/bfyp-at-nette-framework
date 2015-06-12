@@ -100,7 +100,7 @@ nette:
 		accessors: TRUE
 
 	application:
-		errorPresenter: Error
+		errorPresenter: Common:Error
 		mapping:
 			*: App\*\Presenters\*Presenter
 
