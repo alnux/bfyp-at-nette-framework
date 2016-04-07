@@ -1,6 +1,6 @@
 <?php namespace App\Front\Presenters;
 /**
- * @author Leonardo Allende <alnux@ya.ru> 2015
+ * @author Leonardo Allende <alnux@ya.ru> 2015 
  */
 use App\Common\Presenters\BasePresenter;
 
