@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.10
+-- version 4.0.2
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost:3306
--- Tiempo de generación: 31-05-2016 a las 21:16:06
--- Versión del servidor: 5.5.42
--- Versión de PHP: 5.6.10
+-- Servidor: localhost
+-- Tiempo de generación: 17-05-2015 a las 20:47:48
+-- Versión del servidor: 5.6.11-log
+-- Versión de PHP: 5.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -14,10 +14,10 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `nette_innoDB`
+-- Base de datos: `nette`
 --
 CREATE DATABASE IF NOT EXISTS `nette_innoDB` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `nette_innoDB`;
@@ -28,11 +28,11 @@ USE `nette_innoDB`;
 -- Estructura de tabla para la tabla `blackip`
 --
 
-DROP TABLE IF EXISTS `blackip`;
-CREATE TABLE `blackip` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `blackip` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ip` varchar(15) NOT NULL,
-  `reason` varchar(255) DEFAULT NULL
+  `reason` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -41,10 +41,10 @@ CREATE TABLE `blackip` (
 -- Estructura de tabla para la tabla `language`
 --
 
-DROP TABLE IF EXISTS `language`;
-CREATE TABLE `language` (
+CREATE TABLE IF NOT EXISTS `language` (
   `key` varchar(2) NOT NULL,
-  `name` varchar(100) NOT NULL
+  `name` varchar(100) NOT NULL,
+  PRIMARY KEY (`key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -62,15 +62,18 @@ INSERT INTO `language` (`key`, `name`) VALUES
 -- Estructura de tabla para la tabla `permission`
 --
 
-DROP TABLE IF EXISTS `permission`;
-CREATE TABLE `permission` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `permission` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `role_id` int(11) NOT NULL,
   `privilege_id` int(11) DEFAULT NULL,
   `resource_id` int(11) DEFAULT NULL,
   `access` int(11) DEFAULT NULL,
-  `verification` varchar(40) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  `verification` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `privilege_id_index` (`privilege_id`),
+  KEY `resource_id_index` (`resource_id`),
+  KEY `role_id_index` (`role_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `permission`
@@ -85,14 +88,17 @@ INSERT INTO `permission` (`id`, `role_id`, `privilege_id`, `resource_id`, `acces
 -- Estructura de tabla para la tabla `privilege`
 --
 
-DROP TABLE IF EXISTS `privilege`;
-CREATE TABLE `privilege` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `privilege` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `parent_id` int(11) DEFAULT NULL,
   `key_name` varchar(64) NOT NULL,
   `name` varchar(64) NOT NULL,
-  `comment` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+  `comment` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `key_name_unique` (`key_name`),
+  UNIQUE KEY `name_unique` (`name`),
+  KEY `privileges_privileges_parent_id_id` (`parent_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `privilege`
@@ -111,14 +117,17 @@ INSERT INTO `privilege` (`id`, `parent_id`, `key_name`, `name`, `comment`) VALUE
 -- Estructura de tabla para la tabla `resource`
 --
 
-DROP TABLE IF EXISTS `resource`;
-CREATE TABLE `resource` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `resource` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `parent_id` int(11) DEFAULT NULL,
   `key_name` varchar(64) NOT NULL,
   `name` varchar(64) NOT NULL,
-  `comment` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+  `comment` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `key_name_unique` (`key_name`),
+  UNIQUE KEY `name_unique` (`name`),
+  KEY `parent_id_index` (`parent_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `resource`
@@ -150,14 +159,17 @@ INSERT INTO `resource` (`id`, `parent_id`, `key_name`, `name`, `comment`) VALUES
 -- Estructura de tabla para la tabla `role`
 --
 
-DROP TABLE IF EXISTS `role`;
-CREATE TABLE `role` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `role` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `parent_id` int(11) DEFAULT NULL,
   `key_name` varchar(64) NOT NULL,
   `name` varchar(64) NOT NULL,
-  `comment` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+  `comment` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `key_name_unique` (`key_name`),
+  UNIQUE KEY `name_unique` (`name`),
+  KEY `parent_id_index` (`parent_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `role`
@@ -174,10 +186,9 @@ INSERT INTO `role` (`id`, `parent_id`, `key_name`, `name`, `comment`) VALUES
 -- Estructura de tabla para la tabla `user`
 --
 
-DROP TABLE IF EXISTS `user`;
-CREATE TABLE `user` (
-  `id` int(11) NOT NULL,
-  `username` varchar(64) NOT NULL,
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(64) NOT NULL COMMENT 'id de distribucion en herbalife',
   `auth_key` varchar(32) DEFAULT NULL,
   `password_hash` varchar(250) NOT NULL,
   `password_reset_token` varchar(250) DEFAULT NULL,
@@ -186,8 +197,11 @@ CREATE TABLE `user` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `status_value` smallint(6) DEFAULT NULL,
-  `user_type_value` smallint(6) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+  `user_type_value` smallint(6) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username_unique` (`username`),
+  KEY `user_language_languagekey_key` (`language_key`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `user`
@@ -203,11 +217,12 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_res
 -- Estructura de tabla para la tabla `user_role`
 --
 
-DROP TABLE IF EXISTS `user_role`;
-CREATE TABLE `user_role` (
+CREATE TABLE IF NOT EXISTS `user_role` (
   `user_id` int(11) NOT NULL,
   `role_id` int(11) NOT NULL,
-  `verification` varchar(40) NOT NULL
+  `verification` varchar(40) NOT NULL,
+  PRIMARY KEY (`user_id`,`role_id`),
+  KEY `roles_id_index` (`role_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -224,125 +239,56 @@ INSERT INTO `user_role` (`user_id`, `role_id`, `verification`) VALUES
 -- Estructura de tabla para la tabla `whiteproxy`
 --
 
-DROP TABLE IF EXISTS `whiteproxy`;
-CREATE TABLE `whiteproxy` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `whiteproxy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ip` varchar(15) NOT NULL,
-  `reason` varchar(255) DEFAULT NULL
+  `reason` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Índices para tablas volcadas
+-- Restricciones para tablas volcadas
 --
 
 --
--- Indices de la tabla `blackip`
---
-ALTER TABLE `blackip`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `language`
---
-ALTER TABLE `language`
-  ADD PRIMARY KEY (`key`);
-
---
--- Indices de la tabla `permission`
+-- Filtros para la tabla `permission`
 --
 ALTER TABLE `permission`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `privilege_id_index` (`privilege_id`),
-  ADD KEY `resource_id_index` (`resource_id`),
-  ADD KEY `role_id_index` (`role_id`);
+  ADD CONSTRAINT `permission_privileges_privilege_id_id` FOREIGN KEY (`privilege_id`) REFERENCES `privilege` (`id`),
+  ADD CONSTRAINT `permission_resources_resource_id_id` FOREIGN KEY (`resource_id`) REFERENCES `resource` (`id`),
+  ADD CONSTRAINT `permission_roles_role_id_id` FOREIGN KEY (`role_id`) REFERENCES `role` (`id`);
 
 --
--- Indices de la tabla `privilege`
+-- Filtros para la tabla `privilege`
 --
 ALTER TABLE `privilege`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `key_name_unique` (`key_name`),
-  ADD UNIQUE KEY `name_unique` (`name`),
-  ADD KEY `privileges_privileges_parent_id_id` (`parent_id`);
+  ADD CONSTRAINT `privileges_privileges_parent_id_id` FOREIGN KEY (`parent_id`) REFERENCES `privilege` (`id`);
 
 --
--- Indices de la tabla `resource`
+-- Filtros para la tabla `resource`
 --
 ALTER TABLE `resource`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `key_name_unique` (`key_name`),
-  ADD UNIQUE KEY `name_unique` (`name`),
-  ADD KEY `parent_id_index` (`parent_id`);
+  ADD CONSTRAINT `resources_resources_parent_id_id` FOREIGN KEY (`parent_id`) REFERENCES `resource` (`id`);
 
 --
--- Indices de la tabla `role`
+-- Filtros para la tabla `role`
 --
 ALTER TABLE `role`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `key_name_unique` (`key_name`),
-  ADD UNIQUE KEY `name_unique` (`name`),
-  ADD KEY `parent_id_index` (`parent_id`);
+  ADD CONSTRAINT `roles_roles_parent_id_id` FOREIGN KEY (`parent_id`) REFERENCES `role` (`id`);
 
 --
--- Indices de la tabla `user`
+-- Filtros para la tabla `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username_unique` (`username`),
-  ADD KEY `user_language_languagekey_key` (`language_key`);
+  ADD CONSTRAINT `user_language_languagekey_key` FOREIGN KEY (`language_key`) REFERENCES `language` (`key`);
 
 --
--- Indices de la tabla `user_role`
+-- Filtros para la tabla `user_role`
 --
 ALTER TABLE `user_role`
-  ADD PRIMARY KEY (`user_id`,`role_id`),
-  ADD KEY `roles_id_index` (`role_id`);
+  ADD CONSTRAINT `users_roles_roles_role_id_id` FOREIGN KEY (`role_id`) REFERENCES `role` (`id`),
+  ADD CONSTRAINT `users_roles_users_user_id_id` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
 
---
--- Indices de la tabla `whiteproxy`
---
-ALTER TABLE `whiteproxy`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `blackip`
---
-ALTER TABLE `blackip`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT de la tabla `permission`
---
-ALTER TABLE `permission`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
---
--- AUTO_INCREMENT de la tabla `privilege`
---
-ALTER TABLE `privilege`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
---
--- AUTO_INCREMENT de la tabla `resource`
---
-ALTER TABLE `resource`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=20;
---
--- AUTO_INCREMENT de la tabla `role`
---
-ALTER TABLE `role`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
---
--- AUTO_INCREMENT de la tabla `user`
---
-ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT de la tabla `whiteproxy`
---
-ALTER TABLE `whiteproxy`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
