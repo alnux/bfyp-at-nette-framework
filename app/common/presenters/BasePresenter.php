@@ -337,7 +337,10 @@ abstract class BasePresenter extends Presenter
 			if (!$this->user->isAllowed(strtolower(str_replace("\\", "_", get_class($this))), $privilege)) 
 			{
 			 	$this->user->getStorage()->getIdentity()->__set('menuitemsaccess', $this->generateAuthUserMenu()?:'');
-			 	
+			 	if(empty($this->user->getStorage()->getIdentity()->getData()['menuitemsaccess']))
+				{
+					$this->redirect( $this->settingsValue('no_resources'));
+				}
 			 	if($redirectAction)
 			 	{
 			 		$this->redirect(':Front:Users:Index:default');
