@@ -126,7 +126,7 @@ class AppKeyPresenter extends BackendBasePresenter{
                 $row->update($value);
             }
         }
-        
+        $this->deleteAclCache();
         $this->redirect(':Common:Sign:logout');
     }
 
