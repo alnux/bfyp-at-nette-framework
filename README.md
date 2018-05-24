@@ -14,8 +14,6 @@ Hi there i just published an app where you can start your proyect, the features 
 
 It is very easy to implement your presenters and for your models there is a models containers where you can call all that you want, in the same way the forms
 
-you cant test it "here":http://ntt.miwp.eu/
-
 you can add new users with your email.
 
 To Install
